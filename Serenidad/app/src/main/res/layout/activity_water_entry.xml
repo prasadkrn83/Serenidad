@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    android:orientation="vertical">
+<!--    tools:context=".water_entry"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:gravity="center">
+
+        <TextView
+
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water"
+            />
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:background="@android:color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_width="40dp"
+            android:layout_height="43dp"
+            android:src="@drawable/water"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp">
+
+        <TextView
+            android:textSize="16dp"
+            android:fontFamily="@font/dreamgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/01"/>
+
+        <TextView
+            android:textSize="16dp"
+            android:fontFamily="@font/dreamgt"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="21: 00"/>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/dreamgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Glasses"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp">
+
+        <Button
+            android:id="@+id/btn_water_got_it"
+            android:background="@drawable/btn"
+            android:layout_width="210dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#39FF44"
+            android:text="Oky, Got it !"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
