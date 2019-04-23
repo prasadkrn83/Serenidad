@@ -32,6 +32,12 @@ public class DBHelper extends SQLiteOpenHelper {
                     " foreign key(habitid) references habit(habitid)); ";
 
 
+    private static final String CREATE_TABLE_USER_THOUGHT_LOG =
+            "create table thoughtlog (thoughtid integer , username text," +
+                    "emotion text,feeling text, thoughtdate datetime, situation_whom text, " +
+                    "situation_when text, situation_where text, behaviour_afterthought text," +
+                    "behaviour_reaction text, primary key(thoughtid))";
+
     private static final String CREATE_TABLE_USER_HABIT_ENTRY =
             "create table userhabitentry (userid integer ,habitid integer, "
                     + "entrydate date, value int," +
@@ -46,6 +52,7 @@ public class DBHelper extends SQLiteOpenHelper {
         database.execSQL(CREATE_TABLE_HABIT);
         database.execSQL(CREATE_TABLE_USER_HABIT);
         database.execSQL(CREATE_TABLE_USER_HABIT_ENTRY);
+        database.execSQL(CREATE_TABLE_USER_THOUGHT_LOG);
         database.execSQL(INSERT_STANDARD_HABIT_EATING);
         database.execSQL(INSERT_STANDARD_HABIT_EXERCISE);
         database.execSQL(INSERT_STANDARD_HABIT_ALCOHOL);

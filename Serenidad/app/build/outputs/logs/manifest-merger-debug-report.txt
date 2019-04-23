@@ -118,10 +118,6 @@ activity#com.serenidad.WaterEntryActivity
 ADDED from D:\AndroidApps\Projects\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:26:9-56
 	android:name
 		ADDED from D:\AndroidApps\Projects\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:26:19-53
-activity#com.serenidad.ProgressChartActivity
-ADDED from D:\AndroidApps\Projects\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:27:9-68
-	android:name
-		ADDED from D:\AndroidApps\Projects\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:27:19-56
 uses-sdk
 INJECTED from D:\AndroidApps\Projects\Serenidad\Serenidad\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\AndroidApps\Projects\Serenidad\Serenidad\app\src\main\AndroidManifest.xml

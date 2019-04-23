@@ -24,7 +24,7 @@
         <activity android:name=".ThankfulDiaryHelpActivity" />
         <activity android:name=".ProgressHelpActivity" />
         <activity android:name=".WaterEntryActivity" />
-        <activity android:name=".ProgressChartActivity"></activity>
+        <!--<activity android:name=".ProgressChartActivity"></activity>-->
 
     </application>
 

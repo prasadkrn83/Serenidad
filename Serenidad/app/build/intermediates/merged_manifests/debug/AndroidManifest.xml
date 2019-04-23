@@ -33,7 +33,7 @@
         <activity android:name="com.serenidad.ThankfulDiaryHelpActivity" />
         <activity android:name="com.serenidad.ProgressHelpActivity" />
         <activity android:name="com.serenidad.WaterEntryActivity" />
-        <activity android:name="com.serenidad.ProgressChartActivity" />
+        <!-- <activity android:name=".ProgressChartActivity"></activity> -->
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
