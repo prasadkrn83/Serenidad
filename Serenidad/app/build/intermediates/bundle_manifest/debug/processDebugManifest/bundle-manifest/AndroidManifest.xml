@@ -19,8 +19,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.serenidad.ProgressChartActivity" >
+        <activity android:name="com.serenidad.ProgressThoughtLogActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,6 +33,12 @@
         <activity android:name="com.serenidad.ThankfulDiaryHelpActivity" />
         <activity android:name="com.serenidad.ProgressHelpActivity" />
         <activity android:name="com.serenidad.WaterEntryActivity" />
+        <activity android:name="com.serenidad.ProgressChartActivity" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.serenidad.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>
