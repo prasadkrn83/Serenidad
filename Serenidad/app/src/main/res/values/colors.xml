@@ -5,4 +5,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorBar1">#B0B4B3</color>
     <color name="colorBar2">#CEE2D9</color>
+    <color name="darkGreen">#008000</color>
+    <color name="seek_bar_background">#ababab</color>
+    <color name="seek_bar_progress">#ffb600</color>
+    <color name="seek_bar_secondary_progress">#3399CC</color>
 </resources>

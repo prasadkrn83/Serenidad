@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewHabitActivity">
+
+    <ListView
+        android:id="@+id/newhabit"
+        android:layout_width="370dp"
+        android:layout_height="472dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="94dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="44dp"
+        android:text="Close"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newhabit" />
+
+    <Button
+        android:id="@+id/buttonAddCustomHabit"
+        android:layout_width="147dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Add Custom Habit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newhabit" />
+</android.support.constraint.ConstraintLayout>
