@@ -12,20 +12,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProgressThoughtLogActivity">
+        <activity android:name=".MeditationSelectionActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MeditationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".ProgressThoughtLogActivity"></activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".ThankfulDiary" />
         <activity android:name=".ThankfulDiaryHelpActivity" />
         <activity android:name=".ProgressHelpActivity" />
         <activity android:name=".WaterEntryActivity" />
-        <!--<activity android:name=".ProgressChartActivity"></activity>-->
-
     </application>
 
 </manifest>

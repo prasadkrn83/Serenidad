@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeditationSelectionActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/liner_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_chevron_left_black_24dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/action_bar_back"
+                />
+
+            <TextView
+                android:id="@+id/action_bar_back1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:text="Back"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meditation"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            />
+
+        <ImageButton
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_help_outline_blaack_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/action_bar_forward"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+
+            android:layout_centerHorizontal="true" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/firstImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:onClick="selectButton"
+            android:src="@drawable/image" />
+    <TextView
+        android:id="@+id/firstImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/firstImageView"
+        android:layout_alignTop="@+id/firstImageView"
+        android:layout_alignRight="@+id/firstImageView"
+        android:layout_alignBottom="@+id/firstImageView"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="Hello"
+        android:textColor="#000000" />
+    </RelativeLayout>
+        <View
+            android:layout_width="40dp"
+            android:layout_height="1dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/secondImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="selectButton"
+                android:src="@drawable/image" />
+            <TextView
+                android:id="@+id/secondImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/secondImageView"
+                android:layout_alignTop="@+id/secondImageView"
+                android:layout_alignRight="@+id/secondImageView"
+                android:layout_alignBottom="@+id/secondImageView"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Hello"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/thirdImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="selectButton"
+                android:src="@drawable/image" />
+            <TextView
+                android:id="@+id/thirdImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/thirdImageView"
+                android:layout_alignTop="@+id/thirdImageView"
+                android:layout_alignRight="@+id/thirdImageView"
+                android:layout_alignBottom="@+id/thirdImageView"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Hello"
+                android:textColor="#000000" />
+        </RelativeLayout>
+        <View
+            android:layout_width="40dp"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fourthImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="selectButton"
+                android:src="@drawable/image" />
+            <TextView
+                android:id="@+id/fourthImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/fourthImageView"
+                android:layout_alignTop="@+id/fourthImageView"
+                android:layout_alignRight="@+id/fourthImageView"
+                android:layout_alignBottom="@+id/fourthImageView"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Hello"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fifthImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="selectButton"
+                android:src="@drawable/image" />
+            <TextView
+                android:id="@+id/fifthImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/fifthImageView"
+                android:layout_alignTop="@+id/fifthImageView"
+                android:layout_alignRight="@+id/fifthImageView"
+                android:layout_alignBottom="@+id/fifthImageView"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Hello"
+                android:textColor="#000000" />
+        </RelativeLayout>
+        <View
+            android:layout_width="40dp"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/sixthImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="selectButton"
+                android:src="@drawable/image" />
+            <TextView
+                android:id="@+id/sixthImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sixthImageView"
+                android:layout_alignTop="@+id/sixthImageView"
+                android:layout_alignRight="@+id/sixthImageView"
+                android:layout_alignBottom="@+id/sixthImageView"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Hello"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
