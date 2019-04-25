@@ -1,8 +1,11 @@
 package com.serenidad;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,6 +23,7 @@ public class MeditationActivity extends AppCompatActivity {
     TextView elapsedTimeLabel;
     TextView remainingTimeLabel;
     ImageButton actionBarBack;
+    ImageButton actionBarForward;
     TextView actionBarBack1;
     MediaPlayer mp;
     int totalTime;
@@ -34,7 +38,34 @@ public class MeditationActivity extends AppCompatActivity {
         remainingTimeLabel = (TextView) findViewById(R.id.remainingTimeLabel);
         actionBarBack = findViewById(R.id.action_bar_back);
         actionBarBack1 = findViewById(R.id.action_bar_back1);
+        actionBarForward = findViewById(R.id.action_bar_forward);
         // Media Player
+
+        actionBarBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("OnClick pressed", "onbackpressed");
+                onBackPressed();
+            }
+        });
+
+        actionBarBack1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+        actionBarForward.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Log.d("Fragment Called", "onclick of meditation");
+                Intent intent = new Intent(getApplicationContext(),MeditationHelpActivity.class);
+                startActivity(intent);
+            }
+        });
+
         int i = getIntent().getIntExtra("meditation",1);
         switch (i){
             case 1: mp = MediaPlayer.create(this, R.raw.dilbar); break;
@@ -158,20 +189,7 @@ public class MeditationActivity extends AppCompatActivity {
             playBtn.setBackgroundResource(R.drawable.play);
         }
 
-        actionBarBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d("OnClick pressed", "onbackpressed");
-                onBackPressed();
-            }
-        });
 
-        actionBarBack1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
     }
     @Override
     public void onBackPressed()

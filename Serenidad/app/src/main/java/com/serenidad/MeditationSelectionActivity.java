@@ -11,6 +11,7 @@ import android.widget.TextView;
 public class MeditationSelectionActivity extends AppCompatActivity {
     ImageButton actionBarBack;
     TextView actionBarBack1;
+    ImageButton actionBarForward;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +30,17 @@ public class MeditationSelectionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 onBackPressed();
+            }
+        });
+
+        actionBarForward = findViewById(R.id.action_bar_forward);
+        actionBarForward.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Log.d("Fragment Called", "onclick of meditation");
+                Intent intent = new Intent(getApplicationContext(),MeditationHelpActivity.class);
+                startActivity(intent);
             }
         });
     }

@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MeditationSelectionActivity"
+        <activity android:name=".MeditationHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MeditationSelectionActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +25,8 @@
         </activity>
         <activity
             android:name=".MeditationActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-        <activity android:name=".ProgressThoughtLogActivity"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ProgressThoughtLogActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ThankfulDiary" />
         <activity android:name=".ThankfulDiaryHelpActivity" />
