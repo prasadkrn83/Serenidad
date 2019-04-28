@@ -2,6 +2,11 @@ package com.serenidad;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
@@ -11,64 +16,46 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 import java.util.ArrayList;
 
 public class ProgressHelpActivity extends AppCompatActivity {
-    BarChart chart ;
-    ArrayList<BarEntry> BARENTRY ;
-    ArrayList<String> BarEntryLabels ;
-    BarDataSet Bardataset ;
-    BarData BARDATA ;
+
+    ImageButton actionBarBack;
+    TextView actionBarBack1;
+    Button buttonOk;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_progress_help);
 
-        chart = (BarChart) findViewById(R.id.chart1);
+        actionBarBack = findViewById(R.id.action_bar_back);
+        actionBarBack1 = findViewById(R.id.action_bar_back1);
+        buttonOk = findViewById(R.id.btn_help_got);
+        actionBarBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
-        BARENTRY = new ArrayList<>();
-
-        BarEntryLabels = new ArrayList<String>();
-
-        AddValuesToBARENTRY();
-
-        AddValuesToBarEntryLabels();
-
-        Bardataset = new BarDataSet(BARENTRY, "My Daily Progress");
-
-        BARDATA = new BarData(BarEntryLabels, Bardataset);
-
-        Bardataset.setColors(
-                new int[]{
-                        getResources().getColor(R.color.colorBar1),
-                        getResources().getColor(R.color.colorBar2)
-                });
-
-
-        chart.setData(BARDATA);
-
-        chart.animateY(3000);
-
+        actionBarBack1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+        buttonOk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
     }
 
-    public void AddValuesToBARENTRY(){
-
-        BARENTRY.add(new BarEntry(3f, 0));
-        BARENTRY.add(new BarEntry(4f, 1));
-        BARENTRY.add(new BarEntry(8f, 2));
-        BARENTRY.add(new BarEntry(4f, 3));
-        BARENTRY.add(new BarEntry(7f, 4));
-        BARENTRY.add(new BarEntry(3f, 5));
-
-    }
-
-    public void AddValuesToBarEntryLabels(){
-
-        BarEntryLabels.add("Activity 7");
-        BarEntryLabels.add("Activity 8");
-        BarEntryLabels.add("Activity 9");
-        BarEntryLabels.add("Activity 10");
-        BarEntryLabels.add("Activity 11");
-        BarEntryLabels.add("Activity 12");
-
+    @Override
+    public void onBackPressed()
+    {
+        Log.d("OnBackPressed Called", "inside onbackpressed");
+        // code here to show dialog
+        super.onBackPressed();  // optional depending on your needs
     }
 
 }

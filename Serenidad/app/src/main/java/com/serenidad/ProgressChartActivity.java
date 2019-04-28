@@ -1,7 +1,12 @@
 package com.serenidad;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
@@ -17,6 +22,10 @@ public class ProgressChartActivity extends AppCompatActivity {
     ArrayList<String> BarEntryLabels ;
     BarDataSet Bardataset ;
     BarData BARDATA ;
+
+    ImageButton actionBarBack;
+    ImageButton actionBarForward;
+    TextView actionBarBack1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +57,35 @@ public class ProgressChartActivity extends AppCompatActivity {
 
         chart.animateY(3000);
 
+        actionBarBack = findViewById(R.id.action_bar_back);
+        actionBarBack1 = findViewById(R.id.action_bar_back1);
+
+        actionBarForward = findViewById(R.id.action_bar_forward);
+        actionBarForward.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                //Log.d("Fragment Called", "onclick of meditation");
+                Intent intent = new Intent(getApplicationContext(),ThankfulDiaryHelpActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        actionBarBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("OnClick pressed", "onbackpressed");
+                onBackPressed();
+            }
+        });
+
+        actionBarBack1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
     }
 
     public void AddValuesToBARENTRY(){
@@ -72,4 +110,11 @@ public class ProgressChartActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed()
+    {
+        Log.d("OnBackPressed Called", "inside onbackpressed");
+        // code here to show dialog
+        super.onBackPressed();  // optional depending on your needs
+    }
 }

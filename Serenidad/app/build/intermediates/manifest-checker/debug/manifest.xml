@@ -25,7 +25,7 @@
             android:name="com.serenidad.MeditationHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.serenidad.ThankfulDiary"
+            android:name="com.serenidad.ProgressChartActivity"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,8 +38,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.serenidad.ProgressThoughtLogActivity" />
         <activity android:name="com.serenidad.MainActivity" />
+        <activity
+            android:name="com.serenidad.ThankfulDiaryHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <!-- <activity android:name=".ThankfulDiary" /> -->
-        <activity android:name="com.serenidad.ThankfulDiaryHelpActivity" />
         <activity android:name="com.serenidad.ProgressHelpActivity" />
         <activity android:name="com.serenidad.WaterEntryActivity" />
 

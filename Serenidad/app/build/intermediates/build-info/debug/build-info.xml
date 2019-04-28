@@ -6,32 +6,23 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1556411776252"
+    timestamp="1556412761410"
     token="-6352243593817839797"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="406" />
+        duration="378" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="60" />
+        duration="44" />
     <task
         name="verifier"
-        duration="17" />
+        duration="16" />
 
-    <artifact
-        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
-    <artifact
-        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
     <artifact
         location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
@@ -39,19 +30,19 @@
         location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
         location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -59,20 +50,20 @@
     <artifact
         location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
+    <artifact
+        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1556411776252"
+        timestamp="1556412761410"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
         <artifact
             location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
@@ -80,19 +71,19 @@
             location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -100,6 +91,15 @@
         <artifact
             location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
+        <artifact
+            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\AndroidApps\Projects\Serenidad\Serenidad\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

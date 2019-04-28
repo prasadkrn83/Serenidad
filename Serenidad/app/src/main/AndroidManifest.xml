@@ -15,7 +15,7 @@
         <activity android:name=".MeditationHelpActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".ThankfulDiary"
+            android:name=".ProgressChartActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
