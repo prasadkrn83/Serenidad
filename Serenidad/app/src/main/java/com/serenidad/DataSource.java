@@ -72,8 +72,6 @@ public class DataSource {
         return didSucceed;
     }
 
-
-
     public boolean deleteContact(int contactId) {
         boolean didDelete = false;
         try {
@@ -116,7 +114,6 @@ public class DataSource {
         }
         return habits;
     }
-
 
     public ArrayList<Habit> getUserHabits() {
         ArrayList<Habit> habits = new ArrayList<Habit>();
@@ -219,13 +216,12 @@ public class DataSource {
         try {
 
 
-            ContentValues insertValues = new ContentValues();
+          ContentValues insertValues = new ContentValues();
 
         insertValues.put("userid", userId);
         insertValues.put("habitid", habitid);
         insertValues.put("value", value);
-         insertValues.put("entrydate", new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
-
+        insertValues.put("entrydate", new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
 
 
             int id = (int) database.insertWithOnConflict("userhabitentry", null, insertValues, SQLiteDatabase.CONFLICT_REPLACE);
@@ -238,5 +234,22 @@ public class DataSource {
 
     }
 
+    public boolean InsertNote(String userId, String note, String act) {
+        boolean didSucceed = false;
+        try {
+            //Date currentTime = java.util.Calendar.getInstance().getTime();
+            ContentValues initialValues = new ContentValues();
+            initialValues.put("username", userId);
+            initialValues.put("note", note);
+            initialValues.put("act", act);
+            initialValues.put("notedate", new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
 
+            didSucceed = database.insert("thankfuldiary", null, initialValues) > 0;
+        }
+        catch (Exception e) {
+            //Do nothing -will eturn false if there is an exception
+            e.printStackTrace();
+        }
+        return didSucceed;
+    }
 }
