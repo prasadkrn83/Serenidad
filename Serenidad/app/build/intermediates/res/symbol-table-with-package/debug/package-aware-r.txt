@@ -1107,6 +1107,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnCancel
+id btnSave
 id btn_help_got
 id btn_thought_got
 id btn_water_got_it
@@ -1284,11 +1286,13 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
 id text2
+id textAct
 id textHabit
 id textHabitValue
 id textMax
 id textMin
 id textMinScale
+id textNote
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -1373,6 +1377,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_meditation
+layout activity_meditation_help
 layout activity_meditation_selection
 layout activity_newhabit
 layout activity_progress_chart
@@ -1476,6 +1481,7 @@ string character_counter_content_description
 string character_counter_pattern
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
