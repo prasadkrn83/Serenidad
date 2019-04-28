@@ -39,8 +39,8 @@ public class DBHelper extends SQLiteOpenHelper {
                     "behaviour_reaction text, primary key(thoughtid))";
 
     private static final String CREATE_TABLE_USER_THANKFUL_DIARY =
-            "create table thankfuldiary (noteid integer , username text," +
-                    "note text,act text, notedate datetime, primary key(noteid))";
+            "create table thankfuldiary (noteid INTEGER PRIMARY KEY AUTOINCREMENT, username text," +
+                    "note text,act text, notedate datetime)";
 
     private static final String CREATE_TABLE_USER_HABIT_ENTRY =
             "create table userhabitentry (userid integer ,habitid integer, "
