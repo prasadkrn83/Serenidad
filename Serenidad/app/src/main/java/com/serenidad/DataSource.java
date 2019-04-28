@@ -234,6 +234,42 @@ public class DataSource {
 
     }
 
+    public boolean insertEmotiont(JournalThoughts j)
+    {
+        //  String emotiondata[]= s.split(":");
+
+        boolean didSucceed = false;
+        try {
+            String s=j.getGetBehaviourReaction();
+            ContentValues values = new ContentValues();
+            values.put("thoughtid","");
+            values.put("username","");
+            values.put("emotion",j.getEmotion());
+            values.put("thoughtdate",j.getThoughtDate());
+            values.put("situation_whom",j.getSituatationWhom());
+            values.put("situation_when",j.getSituationWhen());
+            values.put("situation_where",j.getSituationWhere());
+            values.put("behaviour_afterthought",j.getBehaviourAfterThought());
+            values.put("behaviour_reaction",j.getGetBehaviourReaction());
+            didSucceed = database.insert("thoughtlog", null, values) > 0;
+
+        }
+        catch (Exception e) {
+            //Do nothing -will eturn false if there is an exception
+            e.printStackTrace();
+        }
+        return didSucceed;
+
+    }
+
+
+
+
+
+
+
+
+
     public boolean InsertNote(String userId, String note, String act) {
         boolean didSucceed = false;
         try {
