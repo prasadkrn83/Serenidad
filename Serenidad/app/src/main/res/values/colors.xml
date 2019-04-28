@@ -9,5 +9,4 @@
     <color name="seek_bar_background">#ababab</color>
     <color name="seek_bar_progress">#ffb600</color>
     <color name="seek_bar_secondary_progress">#3399CC</color>
-    <color name="common_border_color">#131212</color>
 </resources>

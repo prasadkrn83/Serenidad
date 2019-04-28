@@ -22,14 +22,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.serenidad.MeditationHelpActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <!--
-            <activity
-            android:name=".MeditationSelectionActivity"
+            android:name="com.serenidad.MeditationSelectionActivity"
             android:theme="@style/AppTheme.NoActionBar" >
-        -->
-        <activity android:name="com.serenidad.journalofthot_emotionmeter" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,18 +32,14 @@
         </activity>
         <activity
             android:name="com.serenidad.MeditationActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
         <activity android:name="com.serenidad.ProgressThoughtLogActivity" />
         <activity android:name="com.serenidad.MainActivity" />
         <activity android:name="com.serenidad.ThankfulDiary" />
         <activity android:name="com.serenidad.ThankfulDiaryHelpActivity" />
         <activity android:name="com.serenidad.ProgressHelpActivity" />
         <activity android:name="com.serenidad.WaterEntryActivity" />
-        <activity android:name="com.serenidad.journalofthot_situation" />
-        <activity android:name="com.serenidad.journalofthot_help" />
-        <activity android:name="com.serenidad.journalofthot_feeling" />
-        <activity android:name="com.serenidad.journalofthot_datepick" />
-        <activity android:name="com.serenidad.journalofthot_behaviour" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

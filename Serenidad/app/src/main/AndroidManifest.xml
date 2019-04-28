@@ -12,15 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
+        <activity android:name=".MeditationHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".MeditationHelpActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-     <!--   <activity
             android:name=".MeditationSelectionActivity"
-            android:theme="@style/AppTheme.NoActionBar" >-->
-        <activity android:name=".journalofthot_emotionmeter" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,18 +25,13 @@
         </activity>
         <activity
             android:name=".MeditationActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".ProgressThoughtLogActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ThankfulDiary" />
         <activity android:name=".ThankfulDiaryHelpActivity" />
         <activity android:name=".ProgressHelpActivity" />
         <activity android:name=".WaterEntryActivity" />
-        <activity android:name=".journalofthot_situation"/>
-        <activity android:name=".journalofthot_help" />
-        <activity android:name=".journalofthot_feeling" />
-        <activity android:name=".journalofthot_datepick" />
-        <activity android:name=".journalofthot_behaviour" />
     </application>
 
 </manifest>
