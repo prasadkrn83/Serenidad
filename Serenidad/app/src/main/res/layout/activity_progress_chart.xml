@@ -1,306 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
-<!--tools:context=".home_progress"-->
-    <LinearLayout
+    android:orientation="vertical">
 
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <LinearLayout
-            android:gravity="center"
             android:id="@+id/liner_back"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
             <ImageButton
-                android:layout_marginLeft="5dp"
+                android:id="@+id/action_bar_back"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
-                android:src="@drawable/ic_chevron_left_black_24dp"
                 android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
                 android:background="@android:color/transparent"
-                android:id="@+id/action_bar_back"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_chevron_left_black_24dp" />
 
             <TextView
-                android:text="Back"
-                android:layout_marginTop="8dp"
+                android:id="@+id/action_bar_back1"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
-                android:src="@drawable/ic_chevron_left_black_24dp"
                 android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
-                android:id="@+id/action_bar_back1"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                />
-
-
+                android:src="@drawable/ic_chevron_left_black_24dp"
+                android:text="Back" />
         </LinearLayout>
 
-
         <TextView
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Serenidad"
-            android:gravity="center_horizontal"
-            android:layout_marginRight="20dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textStyle="bold"
-            android:padding="10dp"
-            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
             android:layout_weight="1"
-            />
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Serenidad"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
 
         <ImageButton
-            android:layout_marginRight="10dp"
-            android:src="@drawable/ic_help_outline_blaack_24dp"
+            android:id="@+id/action_bar_forward"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:id="@+id/action_bar_forward"
             android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
             android:background="@android:color/transparent"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
-
-
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_help_outline_blaack_24dp" />
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@android:color/darker_gray"/>
-    <ScrollView
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:orientation="vertical"
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="260dp"
+            android:background="#ACEEC8" />
 
-            <com.github.mikephil.charting.charts.BarChart
-                android:id="@+id/chart1"
-                android:background="#ACEEC8"
-                android:layout_width="match_parent"
-                android:layout_height="260dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="20dp">
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginRight="15dp">
-
-
-                    <LinearLayout
-                        android:backgroundTint="#D48588"
-                        android:background="@drawable/csardd"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_marginLeft="3dp"
-                            android:layout_gravity="center"
-                            android:layout_width="17dp"
-                            android:layout_height="17dp"
-                            android:src="@drawable/ic_invert_colors_black_24dp"/>
-
-                        <TextView
-                            android:layout_gravity="center"
-                            android:textSize="15dp"
-                            android:fontFamily="@font/dreamgt"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Water"
-                            android:layout_marginLeft="10dp"/>
-
-                        <TextView
-                            android:layout_marginLeft="68dp"
-                            android:layout_gravity="center"
-                            android:layout_width="110dp"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/dreamgt"
-                            android:text="01/01 18:00"/>
-
-                        <TextView
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:layout_width="match_parent"
-                            android:layout_marginRight="5dp"
-                            android:layout_height="wrap_content"
-                            android:text="2 Glasses"/>
-                    </LinearLayout>
-                </android.support.v7.widget.CardView>
-
-
-
-                <android.support.v7.widget.CardView
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginRight="15dp">
-
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/csardd"
-                        android:backgroundTint="#B3E2C2"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="17dp"
-                            android:layout_height="17dp"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="3dp"
-                            android:src="@drawable/ic_remove_red_eye_black_24dp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="10dp"
-                            android:fontFamily="@font/dreamgt"
-                            android:text="Meditation"
-                            android:textSize="15dp" />
-
-                        <TextView
-                            android:layout_width="110dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="30dp"
-                            android:fontFamily="@font/dreamgt"
-                            android:text="01/01 18:00" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-
-                            android:layout_gravity="center"
-                            android:layout_marginRight="5dp"
-                            android:gravity="center"
-                            android:text="15 Minutes" />
-                    </LinearLayout>
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginRight="15dp">
-
-
-                    <LinearLayout
-                        android:backgroundTint="#D48588"
-                        android:background="@drawable/csardd"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_marginLeft="3dp"
-                            android:layout_gravity="center"
-                            android:layout_width="17dp"
-                            android:layout_height="17dp"
-                            android:src="@drawable/ic_sentiment_dissatisfied_black_24dp"/>
-
-                        <TextView
-                            android:layout_gravity="center"
-                            android:textSize="15dp"
-                            android:fontFamily="@font/dreamgt"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Thought Log"
-                            android:layout_marginLeft="10dp"/>
-
-                        <TextView
-                            android:layout_marginLeft="20dp"
-                            android:layout_gravity="center"
-                            android:layout_width="110dp"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/dreamgt"
-                            android:text="01/01 18:00"/>
-
-                        <TextView
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:layout_width="match_parent"
-                            android:layout_marginRight="5dp"
-                            android:layout_height="wrap_content"
-                            android:text="Sad"/>
-                    </LinearLayout>
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="15dp">
-
-
-                    <LinearLayout
-                        android:backgroundTint="#B3E2C2"
-                        android:background="@drawable/csardd"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_marginLeft="3dp"
-                            android:layout_gravity="center"
-                            android:layout_width="17dp"
-                            android:layout_height="17dp"
-                            android:src="@drawable/ic_sentiment_very_satisfied_black_24dp"/>
-
-                        <TextView
-                            android:layout_gravity="center"
-                            android:textSize="15dp"
-                            android:fontFamily="@font/dreamgt"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Thought Log"
-                            android:layout_marginLeft="10dp"/>
-
-                        <TextView
-                            android:layout_marginLeft="20dp"
-                            android:layout_gravity="center"
-                            android:layout_width="110dp"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/dreamgt"
-                            android:text="01/01 18:00"/>
-
-                        <TextView
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:layout_width="match_parent"
-                            android:layout_marginRight="5dp"
-                            android:layout_height="wrap_content"
-                            android:text="Awesome"/>
-                    </LinearLayout>
-                </android.support.v7.widget.CardView>
-
-
-            </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
-
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
 </LinearLayout>

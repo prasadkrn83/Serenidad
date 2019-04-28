@@ -3,6 +3,8 @@ package com.serenidad;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
@@ -12,8 +14,12 @@ import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
+import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.highlight.Highlight;
+import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 import com.github.mikephil.charting.utils.ColorTemplate;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ProgressChartActivity extends AppCompatActivity {
 
@@ -21,11 +27,20 @@ public class ProgressChartActivity extends AppCompatActivity {
     ArrayList<BarEntry> BARENTRY ;
     ArrayList<String> BarEntryLabels ;
     BarDataSet Bardataset ;
+    private RecyclerView recyclerView;
     BarData BARDATA ;
 
     ImageButton actionBarBack;
     ImageButton actionBarForward;
     TextView actionBarBack1;
+
+
+    private String AxisValue = "";
+    private String xAxisValue = "";
+    private String finalXAxisValue = "";
+
+    private String[] listt = {"Water", "Thought Log", "Water", "Water", "Thought Log", "Thought Log", "Water", "Thought Log", "Water", "Thought Log"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +48,7 @@ public class ProgressChartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_progress_chart);
 
         chart = (BarChart) findViewById(R.id.chart1);
+        recyclerView = (RecyclerView)findViewById(R.id.recyclerView);
 
         BARENTRY = new ArrayList<>();
 
@@ -86,6 +102,35 @@ public class ProgressChartActivity extends AppCompatActivity {
             }
         });
 
+
+        chart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
+            @Override
+            public void onValueSelected(Entry e, int dataSetIndex, Highlight h) {
+                AxisValue = chart.getData().getXVals().get(e.getXIndex());
+                xAxisValue = String.valueOf(e.getVal());
+                finalXAxisValue = xAxisValue;
+            }
+
+            @Override
+            public void onNothingSelected() {
+
+            }
+        });
+
+        chart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String XAXIS = finalXAxisValue.substring(0, 1);
+                String[] newString = Arrays.copyOfRange(listt, 0, Integer.parseInt(XAXIS));
+
+                ArrayList<String> strings = new ArrayList<>(Arrays.asList(newString));
+                ChartAdaptor homeAdapter = new ChartAdaptor(AxisValue, strings,
+                        XAXIS + " Glasses",getSupportFragmentManager() );
+                ;
+                recyclerView.setLayoutManager(new LinearLayoutManager(ProgressChartActivity.this));
+                recyclerView.setAdapter(homeAdapter);
+            }
+        });
     }
 
     public void AddValuesToBARENTRY(){

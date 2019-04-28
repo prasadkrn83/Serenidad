@@ -262,14 +262,6 @@ public class DataSource {
 
     }
 
-
-
-
-
-
-
-
-
     public boolean InsertNote(String userId, String note, String act) {
         boolean didSucceed = false;
         try {

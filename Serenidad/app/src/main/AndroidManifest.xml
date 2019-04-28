@@ -12,8 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MeditationHelpActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MeditationHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ProgressChartActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -25,14 +26,16 @@
         </activity>
         <activity
             android:name=".MeditationActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ProgressThoughtLogActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ThankfulDiaryHelpActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <!--<activity android:name=".ThankfulDiary" />-->
+        <activity
+            android:name=".ThankfulDiaryHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity android:name=".ThankfulDiary" /> -->
         <activity android:name=".ProgressHelpActivity" />
         <activity android:name=".WaterEntryActivity" />
+
     </application>
 
 </manifest>
