@@ -14,13 +14,13 @@ public class DBHelper extends SQLiteOpenHelper {
        "create table habit (habitid integer primary key autoincrement, "
             + "habitname text not null, iconname text, "
             + "min integer, max integer, scale text,iscustom int); ";
-    private static String INSERT_STANDARD_HABIT_EATING="insert into habit values(1,'Eating','eating',600,1500,'Calories','N');" ;
-    private static String INSERT_STANDARD_HABIT_EXERCISE="insert into habit values(2,'Exercise','exercise',20,45,'Minutes','N');" ;
-    private static String INSERT_STANDARD_HABIT_ALCOHOL="insert into habit values(3,'Alcohol','alcohol',1,2,'Drinks','N');" ;
-    private static String INSERT_STANDARD_HABIT_PETS="insert into habit values(4,'Pets','pets',15,30,'Minutes','N');" ;
-    private static String INSERT_STANDARD_HABIT_HOBBIES="insert into habit values(5,'Hobbies','hobbies',20,45,'Minutes','N');" ;
-    private static String INSERT_STANDARD_HABIT_MEDS="insert into habit values(6,'Medicine','medicine',1,1,'Tablets','N');" ;
-    private static String INSERT_STANDARD_HABIT_SM="insert into habit values(7,'Social Media','socialmedia',15,30,'Minutes','N');" ;
+    private static String INSERT_STANDARD_HABIT_EATING="insert into habit values(1,'Comiendo','eating',600,1500,'Calorías','N');" ;
+    private static String INSERT_STANDARD_HABIT_EXERCISE="insert into habit values(2,'Ejercicio','exercise',20,45,'Minutos','N');" ;
+    private static String INSERT_STANDARD_HABIT_ALCOHOL="insert into habit values(3,'Alcohol','alcohol',1,2,'Las bebidas','N');" ;
+    private static String INSERT_STANDARD_HABIT_PETS="insert into habit values(4,'Mascotas','pets',15,30,'Minutos','N');" ;
+    private static String INSERT_STANDARD_HABIT_HOBBIES="insert into habit values(5,'Aficiones','hobbies',20,45,'Minutos','N');" ;
+    private static String INSERT_STANDARD_HABIT_MEDS="insert into habit values(6,'Medicina','medicine',1,1,'Pastillas','N');" ;
+    private static String INSERT_STANDARD_HABIT_SM="insert into habit values(7,'Medios de social','socialmedia',15,30,'Minutos','N');" ;
     private static String INSERT_Thought="insert into thoughtlog values('1','Awesome','sad','depressed','04/29/2019'," +
                                         "'Friend','Morining','at Home','Happy','Motivated');" ;
 
