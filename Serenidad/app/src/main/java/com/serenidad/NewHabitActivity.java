@@ -21,20 +21,17 @@ public class NewHabitActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_newhabit);
         initButtonClose();
-        initButtonAddNewHabit();
+        initButtonAddCustomHabit();
     }
 
-    private void initButtonAddNewHabit() {
+    private void initButtonAddCustomHabit() {
         Button addNewHabitBtn = (Button)findViewById(R.id.buttonAddCustomHabit);
         addNewHabitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FragmentManager fm = getSupportFragmentManager();
-                ConfigureHabitDialog configureHabitDialog = new ConfigureHabitDialog();
-                Bundle args = new Bundle();
-                args.putBoolean("addCustomHabit",true);
-                configureHabitDialog.setArguments(args);
-                configureHabitDialog.show(fm, "ConfigureHabitDialog");
+                ConfigureCustomHabitDialog configureCustomHabitDialog= new ConfigureCustomHabitDialog();
+                configureCustomHabitDialog.show(fm, "ConfigureCustomHabitDialog");
             }
         });
     }

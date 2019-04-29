@@ -11,6 +11,34 @@ public class Habit implements Serializable {
     private String scale;
     private int isCustom;
     private int value;
+    private String date;
+
+
+    public Habit(){
+        super();
+    }
+    public Habit(Habit habit){
+        if(habit!=null) {
+
+            this.habitid = habit.getHabitid();
+            this.habitname = habit.getHabitname();
+            this.habiticon= habit.getHabiticon();
+            this.min=habit.getMin();
+            this.max=habit.getMax();
+            this.scale=habit.getScale();
+            this.isCustom=habit.getIsCustom();
+            this.value=habit.getValue();
+        }
+
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 
     public int getHabitid() {
         return habitid;
