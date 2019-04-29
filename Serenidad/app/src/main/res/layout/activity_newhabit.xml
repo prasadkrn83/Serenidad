@@ -34,7 +34,7 @@
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
                 android:gravity="center_vertical"
-                android:text="Back"
+                android:text="Espalda"
 
                 />
 
@@ -51,7 +51,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:padding="10dp"
-            android:text="Health"
+            android:text="Salud"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textStyle="bold" />
 
@@ -86,7 +86,7 @@
         android:layout_marginTop="60dp"
         android:background="@drawable/btn"
         android:backgroundTint="#ff0000"
-        android:text="Close"
+        android:text="Cerrar"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textStyle="bold"
@@ -102,7 +102,7 @@
         android:layout_marginTop="60dp"
         android:background="@drawable/btn"
         android:backgroundTint="#39FF44"
-        android:text="Add Custom Habit"
+        android:text="Añadir hábito personalizado"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textStyle="bold"
