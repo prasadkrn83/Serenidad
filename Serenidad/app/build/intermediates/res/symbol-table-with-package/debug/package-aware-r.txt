@@ -1208,6 +1208,7 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imgId
 id info
 id invisible
 id italic

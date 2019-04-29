@@ -1,4 +1,0 @@
-#Sun Apr 28 13:25:52 CDT 2019
-base.0=D\:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
-path.0=classes.dex
-renamed.0=classes.dex

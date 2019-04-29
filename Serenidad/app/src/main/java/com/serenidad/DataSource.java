@@ -280,4 +280,102 @@ public class DataSource {
         }
         return didSucceed;
     }
+
+    public ArrayList<Habit> getUserHabitsEntry(String id) {
+        ArrayList<Habit> habits = new ArrayList<Habit>();
+        try {
+            String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+            String query = "SELECT  habit.habitid,habitname,iconname,min,max,scale,value FROM userhabit" +
+                    " join habit on habit.habitid=userhabit.habitid" +
+                    " left  join userhabitentry on userhabit.habitid=userhabitentry.habitid"  +
+                    "          and userhabit.userid=userhabitentry.userid"+
+                    " where userhabit.userid="+ id;
+
+            Cursor cursor = database.rawQuery(query, null);
+
+            Habit newHabit;
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                newHabit = new Habit();                                          //1
+                newHabit .setHabitid(cursor.getInt(0));
+                newHabit .setHabitname(cursor.getString(1));
+                newHabit .setHabiticon(cursor.getString(2));
+                newHabit .setMin(cursor.getInt(3));
+                newHabit .setMax(cursor.getInt(4));
+                newHabit .setScale(cursor.getString(5));
+                newHabit .setValue(cursor.getInt(6));
+                habits.add(newHabit);
+                cursor.moveToNext();
+            }
+            cursor.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            habits = new ArrayList<Habit>();
+        }
+        return habits;
+    }
+
+    public ArrayList<JournalThoughts> getUserThought(String id) {
+        ArrayList<JournalThoughts> Thoughts = new ArrayList<JournalThoughts>();
+        try {
+            String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+            String query = "SELECT  * FROM thoughtlog" +" where username="+ id;
+
+            Cursor cursor = database.rawQuery(query, null);
+
+            JournalThoughts journalThoughts;
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                journalThoughts = new JournalThoughts();                                          //1
+                journalThoughts.setEmotion(cursor.getString  (cursor.getColumnIndex("emotion")));
+                journalThoughts.setThoughtId(cursor.getInt(cursor.getColumnIndex("thoughtid")));
+                journalThoughts.setUserName(cursor.getString(cursor.getColumnIndex("username")));
+                journalThoughts.setFeelings(cursor.getString(cursor.getColumnIndex("feeling")));
+                journalThoughts.setThoughtDate(cursor.getString(cursor.getColumnIndex("thoughtdate")));
+                journalThoughts.setSituatationWhom(cursor.getString(cursor.getColumnIndex("situation_whom")));
+                journalThoughts.setSituationWhen(cursor.getString(cursor.getColumnIndex("situation_when")));
+                journalThoughts.setSituationWhere(cursor.getString(cursor.getColumnIndex("situation_where")));
+                journalThoughts.setBehaviourAfterThought(cursor.getString(cursor.getColumnIndex("behaviour_afterthought")));
+                journalThoughts.setGetBehaviourReaction(cursor.getString(cursor.getColumnIndex("behaviour_reaction")));
+                Thoughts.add(journalThoughts);
+                cursor.moveToNext();
+            }
+            cursor.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            Thoughts = new ArrayList<JournalThoughts>();
+        }
+        return Thoughts;
+    }
+
+    public ArrayList<Diary> getUserNote(String id) {
+        ArrayList<Diary> Notes = new ArrayList<Diary>();
+        try {
+            String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+            String query = "SELECT  * FROM thankfuldiary" +" where username="+ id;
+
+            Cursor cursor = database.rawQuery(query, null);
+
+            Diary note;
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                note = new Diary();                                          //1
+                note.setAct(cursor.getString  (cursor.getColumnIndex("act")));
+                note.setNote(cursor.getString(cursor.getColumnIndex("note")));
+                note.setUserName(cursor.getString(cursor.getColumnIndex("username")));
+                note.setNoteDate(cursor.getString(cursor.getColumnIndex("notedate")));
+                note.setNoteId(cursor.getInt(cursor.getColumnIndex("noteid")));
+                Notes.add(note);
+                cursor.moveToNext();
+            }
+            cursor.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            Notes = new ArrayList<Diary>();
+        }
+        return Notes;
+    }
 }

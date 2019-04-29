@@ -11,6 +11,15 @@ public class Habit implements Serializable {
     private String scale;
     private int isCustom;
     private int value;
+    private String date;
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 
     public int getHabitid() {
         return habitid;
