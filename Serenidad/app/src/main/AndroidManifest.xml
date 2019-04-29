@@ -16,6 +16,9 @@
             android:name=".MeditationHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".HealthHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".HealthMainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -35,7 +38,9 @@
         <!-- <activity android:name=".ThankfulDiary" /> -->
         <activity android:name=".ProgressHelpActivity" />
         <activity android:name=".WaterEntryActivity" />
-        <activity android:name=".NewHabitActivity" />
+        <activity android:name=".NewHabitActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
         <activity android:name=".ProgressChartActivity"/>
 
     </application>

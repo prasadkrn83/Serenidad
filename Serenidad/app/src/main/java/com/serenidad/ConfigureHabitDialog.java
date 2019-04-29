@@ -6,6 +6,7 @@ package com.serenidad;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
@@ -56,6 +57,7 @@ public class ConfigureHabitDialog extends DialogFragment {                      
             //addCustomHabit = getArguments().getBoolean("addCustomHabit");
             if(isFromEditButton){
                 deleteButton.setEnabled(true);
+                deleteButton.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor( R.color.colorAccent)));
             }
             if(addCustomHabit){
                 selectedHabit.setIsCustom(1);

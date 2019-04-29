@@ -10,22 +10,31 @@
 
     <Button
         android:id="@+id/buttonNext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="400dp"
-        android:background="@android:color/holo_green_light"
+        android:background="@drawable/btn"
+        android:backgroundTint="#39FF44"
         android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonCancel"
-        android:layout_width="92dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="388dp"
+        android:layout_width="104dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="#ff0000"
         android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/buttonNext"
         app:layout_constraintTop_toTopOf="parent" />
 

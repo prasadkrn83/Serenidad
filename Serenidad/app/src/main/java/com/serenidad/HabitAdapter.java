@@ -23,7 +23,7 @@ public class HabitAdapter extends ArrayAdapter<Habit> {
     private Context adapterContext;
     private FragmentManager fm;
 
-    public HabitAdapter(Context context, ArrayList<Habit> habits, FragmentManager fm) {
+    public HabitAdapter(Context context, ArrayList<Habit> habits,FragmentManager fm) {
         super(context, R.layout.list_habit_item, habits);
         adapterContext = context;
         this.habits = habits;
