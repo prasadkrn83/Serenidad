@@ -217,7 +217,7 @@ public class ProgressChartActivity extends AppCompatActivity {
 
                 temp = new Acitvity();
                 temp.setActDate(i.getNoteDate());
-                temp.setActImage("ediit.png");
+                temp.setActImage("ediit");
                 temp.setActResult(i.getAct());
                 temp.setActTitle("Diary");
                 temp.setActType("D");

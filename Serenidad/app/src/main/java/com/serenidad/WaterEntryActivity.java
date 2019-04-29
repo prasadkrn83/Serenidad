@@ -21,7 +21,7 @@ public class WaterEntryActivity extends AppCompatActivity {
         TextView act =(TextView) findViewById(R.id.textAct);
 
         note.setText("Note: "+userDiary.get(0).getNote());
-        note.setText("Act Of Kindness: "+userDiary.get(0).getAct());
+        act.setText("Act Of Kindness: "+userDiary.get(0).getAct());
 
     }
 
