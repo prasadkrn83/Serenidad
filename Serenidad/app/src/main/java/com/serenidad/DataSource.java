@@ -444,4 +444,38 @@ public class DataSource {
         }
         return didSucceed;
     }
+
+    public ArrayList<JournalThoughts> getUserThoughtById(String id) {
+        ArrayList<JournalThoughts> Thoughts = new ArrayList<JournalThoughts>();
+        try {
+            String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+            String query = "SELECT  * FROM thoughtlog" +" where thoughtid="+ id;
+
+            Cursor cursor = database.rawQuery(query, null);
+
+            JournalThoughts journalThoughts;
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                journalThoughts = new JournalThoughts();                                          //1
+                journalThoughts.setEmotion(cursor.getString  (cursor.getColumnIndex("emotion")));
+                journalThoughts.setThoughtId(cursor.getInt(cursor.getColumnIndex("thoughtid")));
+                journalThoughts.setUserName(cursor.getString(cursor.getColumnIndex("username")));
+                journalThoughts.setFeelings(cursor.getString(cursor.getColumnIndex("feeling")));
+                journalThoughts.setThoughtDate(cursor.getString(cursor.getColumnIndex("thoughtdate")));
+                journalThoughts.setSituatationWhom(cursor.getString(cursor.getColumnIndex("situation_whom")));
+                journalThoughts.setSituationWhen(cursor.getString(cursor.getColumnIndex("situation_when")));
+                journalThoughts.setSituationWhere(cursor.getString(cursor.getColumnIndex("situation_where")));
+                journalThoughts.setBehaviourAfterThought(cursor.getString(cursor.getColumnIndex("behaviour_afterthought")));
+                journalThoughts.setGetBehaviourReaction(cursor.getString(cursor.getColumnIndex("behaviour_reaction")));
+                Thoughts.add(journalThoughts);
+                cursor.moveToNext();
+            }
+            cursor.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            Thoughts = new ArrayList<JournalThoughts>();
+        }
+        return Thoughts;
+    }
 }
