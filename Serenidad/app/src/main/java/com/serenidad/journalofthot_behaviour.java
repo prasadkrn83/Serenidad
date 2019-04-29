@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.sql.SQLException;
+
 public class journalofthot_behaviour extends AppCompatActivity {
     SharedPreferences sharedpreferences;
 
@@ -120,25 +122,32 @@ public class journalofthot_behaviour extends AppCompatActivity {
         behaviourReaction=sharedpreferences.getString(Email, "");
 
         t.setText(emotion+feelings+ thoughtDate+ situatationWhom +situationWhen +situationWhere +behaviourAfterThought +behaviourReaction);
-        DataSource d = new DataSource(this);
+        DataSource d = new DataSource(getApplicationContext());
         JournalThoughts j = new JournalThoughts();
-        //j.setThoughtId();
-        //j.setUserName();
-        j.setEmotion(emotion);
-        j.setFeelings(feelings);
-        j.setThoughtDate(thoughtDate);
-        j.setSituatationWhom(situatationWhom);
-        j.setSituationWhen(situationWhere);
-        j.setSituationWhere(situationWhen);
-        j.setBehaviourAfterThought(behaviourAfterThought);
-        j.setGetBehaviourReaction(behaviourReaction);
+        try {
+            d.open();
+            //j.setThoughtId();
+            //j.setUserName();
+            j.setEmotion(emotion);
+            j.setFeelings(feelings);
+            j.setThoughtDate(thoughtDate);
+            j.setSituatationWhom(situatationWhom);
+            j.setSituationWhen(situationWhere);
+            j.setSituationWhere(situationWhen);
+            j.setBehaviourAfterThought(behaviourAfterThought);
+            j.setGetBehaviourReaction(behaviourReaction);
 
 
-       // d.insertEmotiont(emotion+feelings+ thoughtDate+ situatationWhom +situationWhen +situationWhere +behaviourAfterThought +getBehaviourReaction);
-        d.insertEmotiont(j);
+            // d.insertEmotiont(emotion+feelings+ thoughtDate+ situatationWhom +situationWhen +situationWhere +behaviourAfterThought +getBehaviourReaction);
+            d.insertEmotiont(j);
+            d.close();
 //        d.insertEmotiont(emotion+":"+feelings+":"+ thoughtDate+":"+ situatationWhom +":"+situationWhen +":"+situationWhere +":"+behaviourAfterThought +":"+getBehaviourReaction);
-        Intent intent = new Intent(getApplicationContext(),journalofthot_help.class);
-        startActivity(intent);
+            Intent intent = new Intent(getApplicationContext(), journalofthot_help.class);
+            startActivity(intent);
+        }
+        catch(SQLException ex){
+            ex.printStackTrace();
+        }
     }
 }
 
