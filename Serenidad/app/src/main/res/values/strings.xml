@@ -5,4 +5,16 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zero">Introduccion</string>
+    <string name="one">Mis sentidos son mas sabios que mi mente</string>
+    <string name="two">Escaneo Corporal</string>
+    <string name="three">Flotando en una burbuja</string>
+    <string name="four">Enfocandome en un objeto</string>
+    <string name="five">El valor del silencio</string>
+    <string name="six">Energizandome</string>
+    <string name="seven">Aceptando mis emociones</string>
+    <string name="eight">Estoy agradecido</string>
+    <string name="nine">Abro mi mente</string>
+    <string name="ten">Meditacion bajo la ducha</string>
+
 </resources>

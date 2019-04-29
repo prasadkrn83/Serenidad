@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -24,6 +25,7 @@ public class MeditationActivity extends AppCompatActivity {
     TextView remainingTimeLabel;
     ImageButton actionBarBack;
     ImageButton actionBarForward;
+    ImageView albumArtImageView;
     TextView actionBarBack1;
     MediaPlayer mp;
     int totalTime;
@@ -39,6 +41,7 @@ public class MeditationActivity extends AppCompatActivity {
         actionBarBack = findViewById(R.id.action_bar_back);
         actionBarBack1 = findViewById(R.id.action_bar_back1);
         actionBarForward = findViewById(R.id.action_bar_forward);
+        albumArtImageView = findViewById(R.id.albumArtImageView);
         // Media Player
 
         actionBarBack.setOnClickListener(new View.OnClickListener() {
@@ -68,12 +71,28 @@ public class MeditationActivity extends AppCompatActivity {
 
         int i = getIntent().getIntExtra("meditation",1);
         switch (i){
-            case 1: mp = MediaPlayer.create(this, R.raw.dilbar); break;
-            case 2: mp = MediaPlayer.create(this, R.raw.second); break;
-            case 3: mp = MediaPlayer.create(this, R.raw.third); break;
-            case 4: mp = MediaPlayer.create(this, R.raw.fourth); break;
-            case 5: mp = MediaPlayer.create(this, R.raw.fifth); break;
-            case 6: mp = MediaPlayer.create(this, R.raw.sixth); break;
+            case 0: mp = MediaPlayer.create(this, R.raw.zero);
+            albumArtImageView.setImageResource(R.drawable.zero); break;
+            case 1: mp = MediaPlayer.create(this, R.raw.one);
+                albumArtImageView.setImageResource(R.drawable.one); break;
+            case 2: mp = MediaPlayer.create(this, R.raw.two);
+                albumArtImageView.setImageResource(R.drawable.two); break;
+            case 3: mp = MediaPlayer.create(this, R.raw.three);
+                albumArtImageView.setImageResource(R.drawable.three); break;
+            case 4: mp = MediaPlayer.create(this, R.raw.four);
+                albumArtImageView.setImageResource(R.drawable.four); break;
+            case 5: mp = MediaPlayer.create(this, R.raw.five);
+                albumArtImageView.setImageResource(R.drawable.five); break;
+            case 6: mp = MediaPlayer.create(this, R.raw.six);
+                albumArtImageView.setImageResource(R.drawable.six); break;
+            case 7: mp = MediaPlayer.create(this, R.raw.seven);
+                albumArtImageView.setImageResource(R.drawable.seven); break;
+            case 8: mp = MediaPlayer.create(this, R.raw.eight);
+                albumArtImageView.setImageResource(R.drawable.eight); break;
+            case 9: mp = MediaPlayer.create(this, R.raw.nine);
+                albumArtImageView.setImageResource(R.drawable.nine); break;
+            case 10: mp = MediaPlayer.create(this, R.raw.ten);
+                albumArtImageView.setImageResource(R.drawable.ten); break;
             default: mp = MediaPlayer.create(this, R.raw.dilbar);
 
         }
