@@ -4,15 +4,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class HealthMainActivity extends AppCompatActivity {
 
+    ImageButton actionBarBack;
+    ImageButton helpIcon;
+
+    TextView actionBarBack1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +27,40 @@ public class HealthMainActivity extends AppCompatActivity {
 
         initAddHabitButton();
         initHabits();
+        initBackActionBar();
+
     }
+
+    private void initBackActionBar() {
+
+        actionBarBack = findViewById(R.id.action_bar_back);
+        helpIcon = findViewById(R.id.help_icon);
+        actionBarBack1 = findViewById(R.id.action_bar_back1);
+        actionBarBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("OnClick pressed", "onbackpressed");
+                onBackPressed();
+            }
+        });
+
+        actionBarBack1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+        helpIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HealthMainActivity.this, HealthHelpActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+            }
+        });
+    }
+
 
     private void initHabits() {
         DataSource ds = new DataSource(getApplicationContext());
@@ -51,5 +91,13 @@ public class HealthMainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     });
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        Log.d("OnBackPressed Called", "inside onbackpressed");
+        // code here to show dialog
+        super.onBackPressed();  // optional depending on your needs
     }
 }

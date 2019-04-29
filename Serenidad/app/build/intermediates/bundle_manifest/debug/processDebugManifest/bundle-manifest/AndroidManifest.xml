@@ -25,7 +25,10 @@
             android:name="com.serenidad.MeditationHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.serenidad.ProgressChartActivity"
+            android:name="com.serenidad.HealthHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.serenidad.journalofthot_emotionmeter"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,6 +47,12 @@
         <!-- <activity android:name=".ThankfulDiary" /> -->
         <activity android:name="com.serenidad.ProgressHelpActivity" />
         <activity android:name="com.serenidad.WaterEntryActivity" />
+        <activity
+            android:name="com.serenidad.NewHabitActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- <activity android:name=".HealthMainActivity"/> -->
+        <!-- <activity android:name=".ProgressChartActivity"/> -->
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

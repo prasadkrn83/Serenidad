@@ -10,4 +10,5 @@
     <color name="seek_bar_progress">#ffb600</color>
     <color name="seek_bar_secondary_progress">#3399CC</color>
     <color name="common_border_color">#1D1E1F</color>
+    <color name="disabledDelete">#EAE8E8</color>
 </resources>

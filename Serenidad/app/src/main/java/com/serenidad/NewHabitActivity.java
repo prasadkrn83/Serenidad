@@ -4,10 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -16,12 +19,46 @@ public class NewHabitActivity extends FragmentActivity {
     ArrayList<Habit> habits;
     boolean isDeleting = false;
     NewHabitAdapter adapter;
+    ImageButton actionBarBack;
+    ImageButton helpIcon;
+    TextView actionBarBack1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_newhabit);
         initButtonClose();
         initButtonAddCustomHabit();
+        initBackActionBar();
+    }
+
+    private void initBackActionBar() {
+
+        actionBarBack = findViewById(R.id.action_bar_back);
+        helpIcon = findViewById(R.id.help_icon);
+        actionBarBack1 = findViewById(R.id.action_bar_back1);
+        actionBarBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("OnClick pressed", "onbackpressed");
+                onBackPressed();
+            }
+        });
+
+        actionBarBack1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+        helpIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(NewHabitActivity.this, HealthHelpActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initButtonAddCustomHabit() {
@@ -93,6 +130,14 @@ public class NewHabitActivity extends FragmentActivity {
             Toast.makeText(this, "Error retrieving default habits", Toast.LENGTH_LONG).show();
         }
 
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        Log.d("OnBackPressed Called", "inside onbackpressed");
+        // code here to show dialog
+        super.onBackPressed();  // optional depending on your needs
     }
 
 }

@@ -196,8 +196,6 @@ public class DataSource {
     public boolean deleteUserHabit(int selectedHabitId) {
         boolean didSucceed=false;
         try {
-
-
             ContentValues updateValues = new ContentValues();
             updateValues.put("isdeleted", 1);
 
@@ -242,8 +240,8 @@ public class DataSource {
         try {
             String s=j.getGetBehaviourReaction();
             ContentValues values = new ContentValues();
-            values.put("thoughtid","");
-            values.put("username","");
+            //values.put("thoughtid","");
+            values.put("username","1");
             values.put("emotion",j.getEmotion());
             values.put("thoughtdate",j.getThoughtDate());
             values.put("situation_whom",j.getSituatationWhom());
@@ -285,7 +283,7 @@ public class DataSource {
         ArrayList<Habit> habits = new ArrayList<Habit>();
         try {
             String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
-            String query = "SELECT  habit.habitid,habitname,iconname,min,max,scale,value FROM userhabit" +
+            String query = "SELECT  habit.habitid,habitname,iconname,min,max,scale,value,entrydate FROM userhabit" +
                     " join habit on habit.habitid=userhabit.habitid" +
                     " left  join userhabitentry on userhabit.habitid=userhabitentry.habitid"  +
                     "          and userhabit.userid=userhabitentry.userid"+
@@ -304,6 +302,7 @@ public class DataSource {
                 newHabit .setMax(cursor.getInt(4));
                 newHabit .setScale(cursor.getString(5));
                 newHabit .setValue(cursor.getInt(6));
+                newHabit .setDate(cursor.getString(7));
                 habits.add(newHabit);
                 cursor.moveToNext();
             }
@@ -443,5 +442,39 @@ public class DataSource {
             e.printStackTrace();
         }
         return didSucceed;
+    }
+
+    public ArrayList<JournalThoughts> getUserThoughtById(String id) {
+        ArrayList<JournalThoughts> Thoughts = new ArrayList<JournalThoughts>();
+        try {
+            String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+            String query = "SELECT  * FROM thoughtlog" +" where thoughtid="+ id;
+
+            Cursor cursor = database.rawQuery(query, null);
+
+            JournalThoughts journalThoughts;
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                journalThoughts = new JournalThoughts();                                          //1
+                journalThoughts.setEmotion(cursor.getString  (cursor.getColumnIndex("emotion")));
+                journalThoughts.setThoughtId(cursor.getInt(cursor.getColumnIndex("thoughtid")));
+                journalThoughts.setUserName(cursor.getString(cursor.getColumnIndex("username")));
+                journalThoughts.setFeelings(cursor.getString(cursor.getColumnIndex("feeling")));
+                journalThoughts.setThoughtDate(cursor.getString(cursor.getColumnIndex("thoughtdate")));
+                journalThoughts.setSituatationWhom(cursor.getString(cursor.getColumnIndex("situation_whom")));
+                journalThoughts.setSituationWhen(cursor.getString(cursor.getColumnIndex("situation_when")));
+                journalThoughts.setSituationWhere(cursor.getString(cursor.getColumnIndex("situation_where")));
+                journalThoughts.setBehaviourAfterThought(cursor.getString(cursor.getColumnIndex("behaviour_afterthought")));
+                journalThoughts.setGetBehaviourReaction(cursor.getString(cursor.getColumnIndex("behaviour_reaction")));
+                Thoughts.add(journalThoughts);
+                cursor.moveToNext();
+            }
+            cursor.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            Thoughts = new ArrayList<JournalThoughts>();
+        }
+        return Thoughts;
     }
 }

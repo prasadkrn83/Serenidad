@@ -59,9 +59,9 @@ public class ChartAdaptor extends RecyclerView.Adapter<ChartAdaptor.InvoiceViewH
                 FragmentTransaction transaction = fragmentManager.beginTransaction();
 
                 if (acts.get(holder.getAdapterPosition()).getActType().equalsIgnoreCase("H")) {
-                    Intent intent = new Intent(v.getContext(),WaterEntryActivity.class);
-                    intent.putExtra("id",acts.get(holder.getAdapterPosition()).getId());
-                    v.getContext().startActivity(intent);
+//                    Intent intent = new Intent(v.getContext(),WaterEntryActivity.class);
+//                    intent.putExtra("id",acts.get(holder.getAdapterPosition()).getId());
+//                    v.getContext().startActivity(intent);
                 } else if(acts.get(holder.getAdapterPosition()).getActType().equalsIgnoreCase("D")){
                     Intent intent = new Intent(v.getContext(),WaterEntryActivity.class);
                     intent.putExtra("id",acts.get(holder.getAdapterPosition()).getId());
