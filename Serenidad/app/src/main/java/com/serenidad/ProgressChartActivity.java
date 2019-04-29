@@ -69,7 +69,12 @@ public class ProgressChartActivity extends AppCompatActivity {
 
         Bardataset = new BarDataSet(BARENTRY, "My Daily Progress");
 
-        BARDATA = new BarData(BarEntryLabels, Bardataset);
+        try {
+            BARDATA = new BarData(BarEntryLabels, Bardataset);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
 
         Bardataset.setColors(
                 new int[]{
@@ -158,7 +163,7 @@ public class ProgressChartActivity extends AppCompatActivity {
                 temp = new Acitvity();
                 temp.setActDate(i.getDate());
                 temp.setActImage(i.getHabiticon());
-                temp.setActResult(i.getScale());
+                temp.setActResult(i.getValue() + " " + i.getScale());
                 temp.setActTitle(i.getHabitname());
                 temp.setActType("H");
                 temp.setId(String.valueOf(i.getHabitid()));

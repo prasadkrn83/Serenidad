@@ -196,8 +196,6 @@ public class DataSource {
     public boolean deleteUserHabit(int selectedHabitId) {
         boolean didSucceed=false;
         try {
-
-
             ContentValues updateValues = new ContentValues();
             updateValues.put("isdeleted", 1);
 
@@ -285,7 +283,7 @@ public class DataSource {
         ArrayList<Habit> habits = new ArrayList<Habit>();
         try {
             String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
-            String query = "SELECT  habit.habitid,habitname,iconname,min,max,scale,value FROM userhabit" +
+            String query = "SELECT  habit.habitid,habitname,iconname,min,max,scale,value,entrydate FROM userhabit" +
                     " join habit on habit.habitid=userhabit.habitid" +
                     " left  join userhabitentry on userhabit.habitid=userhabitentry.habitid"  +
                     "          and userhabit.userid=userhabitentry.userid"+
@@ -304,6 +302,7 @@ public class DataSource {
                 newHabit .setMax(cursor.getInt(4));
                 newHabit .setScale(cursor.getString(5));
                 newHabit .setValue(cursor.getInt(6));
+                newHabit .setDate(cursor.getString(7));
                 habits.add(newHabit);
                 cursor.moveToNext();
             }
