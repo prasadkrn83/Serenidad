@@ -477,4 +477,61 @@ public class DataSource {
         }
         return Thoughts;
     }
+
+
+    public boolean authenticateUser(String username, String password) {
+        boolean isValidUser = false;
+        try {
+            String Q = "SELECT * FROM user WHERE username='"
+                    + username +"'"
+                    + " AND password='" + password+"'";
+
+            Cursor LoginQuery = database.rawQuery(Q, null);
+
+            if (LoginQuery !=null && LoginQuery.getCount()>0) {
+
+                isValidUser = true;
+            }
+        }
+        catch (Exception e) {
+            //Do nothing -will eturn false if there is an exception
+            e.printStackTrace();
+        }
+        return isValidUser;
+    }
+
+    public void insertUser(String username,String password, String email) {
+        try {
+            ContentValues insertValues = new ContentValues();
+            insertValues.put("username", username);
+            insertValues.put("password", password);
+            insertValues.put("email", email);
+            database.insert("user", null, insertValues);
+        }
+        catch (Exception e) {
+            //Do nothing -will eturn false if there is an exception
+            e.printStackTrace();
+        }
+    }
+
+    public boolean isUserRegistered(String email) {
+        boolean isValidUser = false;
+        try {
+            String Q = "SELECT * FROM user WHERE email='"
+                    + email+"'";
+
+            Cursor LoginQuery = database.rawQuery(Q, null);
+
+            if (LoginQuery!=null && LoginQuery.getCount()==0) {
+                isValidUser = true;
+            }
+        }
+        catch (Exception e) {
+            //Do nothing -will eturn false if there is an exception
+            e.printStackTrace();
+        }
+        return isValidUser;
+    }
+
+
 }
