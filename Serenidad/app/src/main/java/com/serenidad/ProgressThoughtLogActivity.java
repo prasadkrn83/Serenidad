@@ -18,11 +18,23 @@ public class ProgressThoughtLogActivity extends AppCompatActivity {
         id = getIntent().getStringExtra("id");
         initThought();
 
-        TextView note =(TextView) findViewById(R.id.textNote);
-        TextView act =(TextView) findViewById(R.id.textAct);
+        TextView date =(TextView) findViewById(R.id.txtDate);
+        TextView when =(TextView) findViewById(R.id.txtWhen);
+        TextView where =(TextView) findViewById(R.id.txtLocation);
+        TextView with =(TextView) findViewById(R.id.txtWith);
+        TextView feeling =(TextView) findViewById(R.id.txtFeeling);
+        TextView afterThought =(TextView) findViewById(R.id.txtAftterThought);
+        TextView afterReaction =(TextView) findViewById(R.id.txtAfterReaction);
+        TextView emotion =(TextView) findViewById(R.id.txtEmotion);
 
-        note.setText("Note: "+userDiary.get(0).getNote());
-        note.setText("Act Of Kindness: "+userDiary.get(0).getAct());
+        date.setText(userEmotions.get(0).getThoughtDate());
+        when.setText(userEmotions.get(0).getSituationWhere());
+        where.setText(userEmotions.get(0).getSituationWhere());
+        with.setText(userEmotions.get(0).getSituatationWhom());
+        feeling.setText(userEmotions.get(0).getFeelings());
+        afterThought.setText(userEmotions.get(0).getBehaviourAfterThought());
+        afterReaction.setText(userEmotions.get(0).getGetBehaviourReaction());
+        emotion.setText(userEmotions.get(0).getEmotion());
     }
 
     ArrayList<JournalThoughts> userEmotions;
@@ -30,7 +42,7 @@ public class ProgressThoughtLogActivity extends AppCompatActivity {
         DataSource ds = new DataSource(getApplicationContext());
         try {
             ds.open();
-            userEmotions = ds.getUserNoteById(id);
+            userEmotions = ds.getUserThoughtById(id);
             ds.close();
 
         }catch(SQLException ex){

@@ -65,15 +65,15 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Date/Time :"
-                                android:fontFamily="@font/dreamgt"/>
+                                android:fontFamily="@font/dreamgt"
+                                android:text="Date :" />
 
                             <TextView
-                                android:fontFamily="@font/dreamgt"
-                                android:layout_marginTop="5dp"
+                                android:id="@+id/txtDate"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="02/02/2019 10:00"/>
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/dreamgt" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -95,11 +95,11 @@
                                     android:fontFamily="@font/dreamgt"/>
 
                                 <TextView
-                                    android:layout_marginLeft="35dp"
-                                    android:fontFamily="@font/dreamgt"
+                                    android:id="@+id/txtWhen"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Morning"/>
+                                    android:layout_marginLeft="35dp"
+                                    android:fontFamily="@font/dreamgt" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -115,11 +115,11 @@
                                     android:fontFamily="@font/dreamgt"/>
 
                                 <TextView
-                                    android:layout_marginLeft="10dp"
-                                    android:fontFamily="@font/dreamgt"
+                                    android:id="@+id/txtLocation"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="At Class"/>
+                                    android:layout_marginLeft="10dp"
+                                    android:fontFamily="@font/dreamgt" />
                             </LinearLayout>
 
                         </LinearLayout>
@@ -150,11 +150,11 @@
                                     android:fontFamily="@font/dreamgt"/>
 
                                 <TextView
-                                    android:layout_marginLeft="15dp"
-                                    android:fontFamily="@font/dreamgt"
+                                    android:id="@+id/txtFeelings"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Creative , Awesome , Funny."/>
+                                    android:layout_marginLeft="15dp"
+                                    android:fontFamily="@font/dreamgt" />
                             </LinearLayout>
 
 
@@ -171,11 +171,12 @@
                                     android:fontFamily="@font/dreamgt"/>
 
                                 <TextView
-                                    android:layout_marginLeft="15dp"
-                                    android:fontFamily="@font/dreamgt"
+                                    android:id="@+id/txtWith"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Friend."/>
+                                    android:layout_marginLeft="15dp"
+                                    android:fontFamily="@font/dreamgt"
+                                    android:text="Friend." />
                             </LinearLayout>
 
 
@@ -192,11 +193,12 @@
                                     android:fontFamily="@font/dreamgt"/>
 
                                 <TextView
-                                    android:layout_marginLeft="15dp"
-                                    android:fontFamily="@font/dreamgt"
+                                    android:id="@+id/txtAfterThought"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Happy."/>
+                                    android:layout_marginLeft="15dp"
+                                    android:fontFamily="@font/dreamgt"
+                                    android:text="Happy." />
                             </LinearLayout>
 
 
@@ -213,11 +215,12 @@
                                     android:fontFamily="@font/dreamgt"/>
 
                                 <TextView
-                                    android:layout_marginLeft="15dp"
-                                    android:fontFamily="@font/dreamgt"
+                                    android:id="@+id/txtAfterReaction"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="I got motivated."/>
+                                    android:layout_marginLeft="15dp"
+                                    android:fontFamily="@font/dreamgt"
+                                    android:text="I got motivated." />
                             </LinearLayout>
 
                             <LinearLayout
@@ -234,11 +237,12 @@
                                     android:fontFamily="@font/dreamgt"/>
 
                                 <TextView
-                                    android:layout_marginLeft="15dp"
-                                    android:fontFamily="@font/dreamgt"
+                                    android:id="@+id/txtEmotion"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="AWESOME."/>
+                                    android:layout_marginLeft="15dp"
+                                    android:fontFamily="@font/dreamgt"
+                                    android:text="AWESOME." />
 
                                 <ImageView
                                     android:layout_width="20dp"
