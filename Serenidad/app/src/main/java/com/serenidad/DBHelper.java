@@ -52,6 +52,12 @@ public class DBHelper extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
+
+    private static final String CREATE_TABLE_USER =
+            "create table user (userid integer primary key autoincrement not null, "
+                    + "username text not null, password text not null,email text not null); ";
+
+
     @Override
     public void onCreate(SQLiteDatabase database) {
         database.execSQL(CREATE_TABLE_HABIT);
@@ -59,6 +65,7 @@ public class DBHelper extends SQLiteOpenHelper {
         database.execSQL(CREATE_TABLE_USER_HABIT_ENTRY);
         database.execSQL(CREATE_TABLE_USER_THOUGHT_LOG);
         database.execSQL(CREATE_TABLE_USER_THANKFUL_DIARY);
+        database.execSQL(CREATE_TABLE_USER);
         database.execSQL(INSERT_STANDARD_HABIT_EATING);
         database.execSQL(INSERT_STANDARD_HABIT_EXERCISE);
         database.execSQL(INSERT_STANDARD_HABIT_ALCOHOL);
