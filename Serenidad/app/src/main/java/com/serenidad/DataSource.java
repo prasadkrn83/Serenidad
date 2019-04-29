@@ -408,5 +408,40 @@ public class DataSource {
         return Notes;
     }
 
+    public boolean insertCustomHabit(Habit habit,int username) {
+        boolean didSucceed = false;
+        try {
+            ContentValues initialValues = new ContentValues();
 
+            ContentValues insertHabitValues = new ContentValues();
+
+            insertHabitValues.put("habitname", habit.getHabitname());
+            insertHabitValues.put("iconname", habit.getHabiticon());
+            insertHabitValues.put("min", habit.getMin());
+            insertHabitValues.put("max", habit.getMax());
+            insertHabitValues.put("scale", habit.getScale());
+            insertHabitValues.put("iscustom", 1);
+
+            int id = (int) database.insertWithOnConflict("habit", null, insertHabitValues, SQLiteDatabase.CONFLICT_REPLACE);
+
+
+            ContentValues insertValues = new ContentValues();
+
+            insertValues.put("userid", username);
+            insertValues.put("habitid", id);
+            insertValues.put("isdeleted", 0);
+
+
+            id = (int) database.insertWithOnConflict("userhabit", null, insertValues, SQLiteDatabase.CONFLICT_REPLACE);
+
+
+
+
+        }
+        catch (Exception e) {
+            //Do nothing -will return false if there is an exception
+            e.printStackTrace();
+        }
+        return didSucceed;
+    }
 }

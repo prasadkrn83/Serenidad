@@ -22,9 +22,6 @@ import java.sql.SQLException;
 
 public class ConfigureHabitDialog extends DialogFragment {                           //1
 
-    public interface ConfigureHabitListener {                                         //2
-        void didFinishConfiureHabitDialog(int min, int max, String scale);
-    }
 
     public ConfigureHabitDialog() {                                                  //3
         // Empty constructor required for DialogFragment
@@ -44,25 +41,39 @@ public class ConfigureHabitDialog extends DialogFragment {                      
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        Habit selectedHabit=null;
+        final Habit selectedHabit=new Habit((Habit)getArguments().getSerializable("habit"));
         boolean isFromEditButton = false;
-        boolean addCustomHabit = false;
+        final boolean addCustomHabit = getArguments().getBoolean("addCustomHabit",false);
+        String customHabitName="";
+        String customHabitScale="";
         final View view = inflater.inflate(R.layout.configure_habit,container);
 
         Button deleteButton = (Button)view.findViewById(R.id.buttonDelete);
 
         if (getArguments() != null) {
-            selectedHabit = (Habit)getArguments().getSerializable("habit");
+
             isFromEditButton = getArguments().getBoolean("fromEditButton");
-            addCustomHabit = getArguments().getBoolean("addCustomHabit");
+            //addCustomHabit = getArguments().getBoolean("addCustomHabit");
             if(isFromEditButton){
                 deleteButton.setEnabled(true);
             }
+            if(addCustomHabit){
+                selectedHabit.setIsCustom(1);
+
+                customHabitName = getArguments().getString("habitName");
+                customHabitScale = getArguments().getString("habitScale");
+
+                selectedHabit.setHabitname(customHabitName);
+                selectedHabit.setScale(customHabitScale);
+                selectedHabit.setHabiticon("plus");
+
+            }
+
         }else{
             getDialog().dismiss();
         }
 
-        final int selectedHabitId=selectedHabit.getHabitid();
+        final int selectedHabitId=(selectedHabit!=null)?selectedHabit.getHabitid():0;
 
         deleteButton.setOnClickListener(new OnClickListener() {
             @Override
@@ -88,14 +99,7 @@ public class ConfigureHabitDialog extends DialogFragment {                      
 
         getDialog().setTitle("Configure Habit");
         EditText habitTitle = (EditText) view.findViewById(R.id.textHabit);
-        if(!addCustomHabit) {
-            habitTitle.setText(selectedHabit.getHabitname());
-        }else{
-            habitTitle.setText("Habit Name");
-            habitTitle.setEnabled(true);
-            habitTitle.setTextSize(18);
-
-        }
+        habitTitle.setText(selectedHabit.getHabitname());
 
 
         ImageView habitIcon = (ImageView)view.findViewById(R.id.habitIcon);
@@ -122,26 +126,10 @@ public class ConfigureHabitDialog extends DialogFragment {                      
             habitMax.setText(String.valueOf(0));
         }
         final EditText habitMinScale = (EditText) view.findViewById(R.id.textMinScale);
-        if(!addCustomHabit) {
-            habitMinScale.setText(selectedHabit.getScale());
+        habitMinScale.setText(selectedHabit.getScale());
 
-        }else{
-            habitMinScale.setText("Custom Scale");
-            habitMinScale.setEnabled(true);
-            habitMinScale.setTextSize(18);
-
-
-        }
         final EditText habitMaxScale = (EditText) view.findViewById(R.id.TextMaxScale);
-        if(!addCustomHabit) {
-            habitMaxScale.setText(selectedHabit.getScale());
-
-        }else{
-            habitMaxScale.setText("Custom Scale");
-            habitMaxScale.setEnabled(true);
-            habitMaxScale.setTextSize(18);
-
-        }
+        habitMaxScale.setText(selectedHabit.getScale());
 
         Button buttonMinusMin = (Button) view.findViewById(R.id.buttonMinusMin);
         buttonMinusMin.setOnClickListener(new OnClickListener() {
@@ -201,7 +189,7 @@ public class ConfigureHabitDialog extends DialogFragment {                      
             }
         });
 
-        Button saveButton = (Button) view.findViewById(R.id.buttonSave);
+        Button saveButton = (Button) view.findViewById(R.id.buttonNext);
         saveButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
@@ -210,8 +198,14 @@ public class ConfigureHabitDialog extends DialogFragment {                      
                 DataSource ds = new DataSource(getContext());
                 try {
                     ds.open();
-                    boolean updated = ds.updateHabit(minVal,maxVal,selectedHabitId,1);
-                    ds.close();
+                    boolean updated = false;
+                    if(addCustomHabit){
+                        selectedHabit.setMin(minVal);
+                        selectedHabit.setMax(maxVal);
+                        ds.insertCustomHabit(selectedHabit,1);
+                    }else {
+                        updated = ds.updateHabit(minVal, maxVal, selectedHabitId, 1);
+                    }ds.close();
                     if(updated){
                         Toast.makeText(getContext(),"Habit Configured Successfully",Toast.LENGTH_LONG);
                     }
@@ -239,9 +233,5 @@ public class ConfigureHabitDialog extends DialogFragment {                      
         return view;
     }
 
-    private void didFinishConfiureHabitDialog(int min, int max, String scale) {                               //6
-        ConfigureHabitListener activity = (ConfigureHabitListener) getActivity();
-        activity.didFinishConfiureHabitDialog(min, max, scale);
-        getDialog().dismiss();
-    }
+
 }
