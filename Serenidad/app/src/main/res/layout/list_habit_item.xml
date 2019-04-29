@@ -29,8 +29,8 @@
         android:id="@+id/textHabitValue"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginStart="248dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,17 +38,17 @@
         android:id="@+id/buttonEditHabit"
         android:layout_width="45dp"
         android:layout_height="38dp"
-        android:layout_marginStart="336dp"
-        android:layout_marginTop="49dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="56dp"
         android:text="..."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <SeekBar
         android:id="@+id/habitSeekBar"
-        android:layout_width="217dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="76dp"
+        android:layout_width="228dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="4dp"
         android:progressDrawable="@drawable/seek_bar"
         android:thumb="@drawable/seek_thumb"
@@ -69,7 +69,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="300dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textHabitValue" />
 </android.support.constraint.ConstraintLayout>
