@@ -21,6 +21,7 @@ public class DBHelper extends SQLiteOpenHelper {
     private static String INSERT_STANDARD_HABIT_HOBBIES="insert into habit values(5,'Hobbies','hobbies',20,45,'Minutes','N');" ;
     private static String INSERT_STANDARD_HABIT_MEDS="insert into habit values(6,'Medicine','medicine',1,1,'Tablets','N');" ;
     private static String INSERT_STANDARD_HABIT_SM="insert into habit values(7,'Social Media','socialmedia',15,30,'Minutes','N');" ;
+    private static String INSERT_Thought="insert into thoughtlog values(7,'Social Media','socialmedia',15,30,'Minutes','N');" ;
 
 
     //" insert into habit values('Exercie','exercise.png',20,45,'Minutes','N');";
@@ -33,10 +34,10 @@ public class DBHelper extends SQLiteOpenHelper {
 
 
     private static final String CREATE_TABLE_USER_THOUGHT_LOG =
-            "create table thoughtlog (thoughtid integer , username text," +
+            "create table thoughtlog (thoughtid INTEGER PRIMARY KEY AUTOINCREMENT , username text," +
                     "emotion text,feeling text, thoughtdate datetime, situation_whom text, " +
                     "situation_when text, situation_where text, behaviour_afterthought text," +
-                    "behaviour_reaction text, primary key(thoughtid))";
+                    "behaviour_reaction text)";
 
     private static final String CREATE_TABLE_USER_THANKFUL_DIARY =
             "create table thankfuldiary (noteid INTEGER PRIMARY KEY AUTOINCREMENT, username text," +
