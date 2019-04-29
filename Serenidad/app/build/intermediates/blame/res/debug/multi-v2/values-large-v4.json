@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "/Users/shekhar/Serenidad/Serenidad/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a4d73dd43c1e93ea181ff59d4d04429f\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/Users/shekhar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/8e31aebb73e121fe9891140eef314ac5/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/Users/shekhar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5e3df5f6fe29d0b96a7d0e6dd4475497/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

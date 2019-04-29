@@ -1012,6 +1012,7 @@ drawable alcohol
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn
+drawable contactus
 drawable csardd
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1454,7 +1455,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chart_adaptor
+layout activity_contact_us
 layout activity_health_help
+layout activity_home
 layout activity_journalofthot_behaviour
 layout activity_journalofthot_datepick
 layout activity_journalofthot_emotionmeter
