@@ -1384,7 +1384,15 @@ id transition_scene_layoutid_cache
 id transition_transform
 id twelveImageView
 id twleveImageViewText
+id txtAfterReaction
+id txtAfterThought
+id txtDate
+id txtEmotion
+id txtFeelings
+id txtLocation
 id txtTitle
+id txtWhen
+id txtWith
 id txt_thought_date
 id txtbox_pref
 id uniform

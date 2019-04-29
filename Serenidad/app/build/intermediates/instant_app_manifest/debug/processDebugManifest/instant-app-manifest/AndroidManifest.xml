@@ -20,16 +20,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.serenidad.MeditationSelectionActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name="com.serenidad.MeditationHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -37,7 +29,7 @@
             android:name="com.serenidad.HealthHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.serenidad.HealthMainActivity"
+            android:name="com.serenidad.ProgressChartActivity"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -59,7 +51,13 @@
         <activity
             android:name="com.serenidad.NewHabitActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.serenidad.ProgressChartActivity" />
+
+        <!-- <activity android:name=".ProgressChartActivity"/> -->
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.serenidad.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

@@ -22,8 +22,8 @@ public class ProgressThoughtLogActivity extends AppCompatActivity {
         TextView when =(TextView) findViewById(R.id.txtWhen);
         TextView where =(TextView) findViewById(R.id.txtLocation);
         TextView with =(TextView) findViewById(R.id.txtWith);
-        TextView feeling =(TextView) findViewById(R.id.txtFeeling);
-        TextView afterThought =(TextView) findViewById(R.id.txtAftterThought);
+        TextView feeling =(TextView) findViewById(R.id.txtFeelings);
+        TextView afterThought =(TextView) findViewById(R.id.txtAfterThought);
         TextView afterReaction =(TextView) findViewById(R.id.txtAfterReaction);
         TextView emotion =(TextView) findViewById(R.id.txtEmotion);
 

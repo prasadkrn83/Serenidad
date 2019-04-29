@@ -21,8 +21,8 @@ public class DBHelper extends SQLiteOpenHelper {
     private static String INSERT_STANDARD_HABIT_HOBBIES="insert into habit values(5,'Hobbies','hobbies',20,45,'Minutes','N');" ;
     private static String INSERT_STANDARD_HABIT_MEDS="insert into habit values(6,'Medicine','medicine',1,1,'Tablets','N');" ;
     private static String INSERT_STANDARD_HABIT_SM="insert into habit values(7,'Social Media','socialmedia',15,30,'Minutes','N');" ;
-    private static String INSERT_Thought="insert into thoughtlog values(7,'Social Media','socialmedia',15,30,'Minutes','N');" ;
-
+    private static String INSERT_Thought="insert into thoughtlog values('1','Awesome','sad','depressed','04/29/2019'," +
+                                        "'Friend','Morining','at Home','Happy','Motivated');" ;
 
     //" insert into habit values('Exercie','exercise.png',20,45,'Minutes','N');";
 
@@ -66,7 +66,7 @@ public class DBHelper extends SQLiteOpenHelper {
         database.execSQL(INSERT_STANDARD_HABIT_HOBBIES);
         database.execSQL(INSERT_STANDARD_HABIT_MEDS);
         database.execSQL(INSERT_STANDARD_HABIT_SM);
-
+        database.execSQL(INSERT_Thought);
     }
 
     @Override
