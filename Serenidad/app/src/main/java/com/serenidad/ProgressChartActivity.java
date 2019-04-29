@@ -189,7 +189,7 @@ public class ProgressChartActivity extends AppCompatActivity {
 
                 temp = new Acitvity();
                 temp.setActDate(i.getThoughtDate());
-                temp.setActImage("emoji.png");
+                temp.setActImage("emoji");
                 temp.setActResult(i.getFeelings());
                 temp.setActTitle("Thouoght");
                 temp.setActType("E");
