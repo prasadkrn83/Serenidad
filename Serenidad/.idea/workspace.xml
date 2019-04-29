@@ -1369,18 +1369,16 @@
       <file leaf-file-name="ProgressChartActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ProgressChartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="135" column="67" lean-forward="false" selection-start-line="135" selection-start-column="67" selection-end-line="135" selection-end-column="67" />
+            <state relative-caret-position="95">
+              <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#3644:4066" expanded="false" />
-                <element signature="e#4941#4958#0" expanded="true" />
-                <element signature="method#initHabits#0;class#ProgressChartActivity#0" expanded="false" />
+                <element signature="class#3696:4118" expanded="false" />
+                <element signature="e#4993#5010#0" expanded="true" />
                 <element signature="method#initEmotions#0;class#ProgressChartActivity#0" expanded="false" />
-                <element signature="method#initDiary#0;class#ProgressChartActivity#0" expanded="false" />
                 <element signature="method#AddValuesToBARENTRY#0;class#ProgressChartActivity#0" expanded="false" />
                 <element signature="method#AddValuesToBarEntryLabels#0;class#ProgressChartActivity#0" expanded="false" />
-                <element signature="e#8393#8403#0" expanded="true" />
+                <element signature="e#8740#8750#0" expanded="true" />
                 <element signature="method#onBackPressed#0;class#ProgressChartActivity#0" expanded="false" />
               </folding>
             </state>
@@ -1390,49 +1388,94 @@
       <file leaf-file-name="ChartAdaptor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ChartAdaptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="85" column="19" lean-forward="false" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+            <state relative-caret-position="113">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1118#1126#0" expanded="false" />
-                <element signature="e#2072#3280#0" expanded="true" />
-                <element signature="e#3279#3280#0" expanded="true" />
-                <element signature="e#3334#3335#0" expanded="true" />
-                <element signature="e#3368#3369#0" expanded="true" />
+                <element signature="e#1149#1157#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewHabitActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/NewHabitActivity.java">
+      <file leaf-file-name="WaterEntryActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/WaterEntryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="53" column="13" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewHabitAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/NewHabitAdapter.java">
+      <file leaf-file-name="ThankfulDiary.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ThankfulDiary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="41" column="77" lean-forward="false" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+            <state relative-caret-position="816">
+              <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_chart_adaptor.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chart_adaptor.xml">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_water_entry.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_water_entry.xml">
           <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="969">
+              <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/DBHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="47" />
+              <folding>
+                <element signature="method#onCreate#0;class#DBHelper#0" expanded="false" />
+                <element signature="method#onUpgrade#0;class#DBHelper#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/DataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+              <folding>
+                <element signature="method#open#0;class#DataSource#0" expanded="false" />
+                <element signature="method#insertCustomHabit#0;class#DataSource#0" expanded="false" />
+                <element signature="method#updateHabit#0;class#DataSource#0" expanded="false" />
+                <element signature="method#deleteContact#0;class#DataSource#0" expanded="false" />
+                <element signature="method#getDefaultHabits#0;class#DataSource#0" expanded="false" />
+                <element signature="method#getUserThoughtLog#0;class#DataSource#0" expanded="false" />
+                <element signature="method#deleteUserHabit#0;class#DataSource#0" expanded="false" />
+                <element signature="method#updateHabitProgress#0;class#DataSource#0" expanded="false" />
+                <element signature="method#insertEmotiont#0;class#DataSource#0" expanded="false" />
+                <element signature="method#getUserHabitsEntry#0;class#DataSource#0" expanded="false" />
+                <element signature="e#12199#12216#0" expanded="true" />
+                <element signature="method#getUserNote#0;class#DataSource#0" expanded="false" />
+                <element signature="method#getUserNoteById#0;class#DataSource#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1440,25 +1483,32 @@
       <file leaf-file-name="Acitvity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/Acitvity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3620,7 +3670,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/activity_thankful_diary.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_thankful_diary_help.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_progress_help.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_water_entry.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
@@ -3641,14 +3690,16 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_progress_chart.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/adaptor_chart.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_chart_adaptor.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chart_adaptor.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/DataSource.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/Habit.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/DailyAcitivities.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/Acitvity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/ProgressChartActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/ChartAdaptor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/DataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_water_entry.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/WaterEntryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/serenidad/ProgressChartActivity.java" />
       </list>
     </option>
   </component>
@@ -3708,6 +3759,12 @@
               <item name="Serenidad" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Serenidad" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
@@ -3720,7 +3777,7 @@
   <component name="PropertiesComponent">
     <property name="android.profiler.active" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556496542002" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556503426166" />
     <property name="device.picker.selection" value="ZY223HG6MZ" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Custom-Navigation-Drawer/Custom-Navigation-Drawer" />
@@ -3918,6 +3975,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3935,7 +3993,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -3992,54 +4050,16 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ChartAdaptor.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ProgressChartActivity.java</url>
-          <line>135</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ProgressChartActivity.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/os/Message.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/MeditationSelectionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/HabitAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_thankful_diary.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -4130,16 +4150,6 @@
         <state relative-caret-position="-43">
           <caret line="122" column="37" lean-forward="false" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ThankfulDiary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="107" column="5" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
-          <folding>
-            <element signature="method#initButton#0;class#ThankfulDiary#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4261,17 +4271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/HealthMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -4308,43 +4307,6 @@
         <state relative-caret-position="-256">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1578">
-          <caret line="352" column="39" lean-forward="false" selection-start-line="352" selection-start-column="28" selection-end-line="352" selection-end-column="39" />
-          <folding>
-            <element signature="e#434#435#0" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="method#open#0;class#DataSource#0" expanded="false" />
-            <element signature="method#insertCustomHabit#0;class#DataSource#0" expanded="false" />
-            <element signature="method#updateHabit#0;class#DataSource#0" expanded="false" />
-            <element signature="method#deleteContact#0;class#DataSource#0" expanded="false" />
-            <element signature="method#getDefaultHabits#0;class#DataSource#0" expanded="false" />
-            <element signature="method#getUserThoughtLog#0;class#DataSource#0" expanded="false" />
-            <element signature="method#deleteUserHabit#0;class#DataSource#0" expanded="false" />
-            <element signature="method#updateHabitProgress#0;class#DataSource#0" expanded="false" />
-            <element signature="method#insertEmotiont#0;class#DataSource#0" expanded="false" />
-            <element signature="method#InsertNote#0;class#DataSource#0" expanded="false" />
-            <element signature="e#10644#10651#0" expanded="false" />
-            <element signature="method#getUserThought#0;class#DataSource#0" expanded="false" />
-            <element signature="e#12199#12216#0" expanded="false" />
-            <element signature="method#getUserNote#0;class#DataSource#0" expanded="false" />
-            <element signature="e#14150#14157#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="32" />
-          <folding>
-            <element signature="method#onCreate#0;class#DBHelper#0" expanded="false" />
-            <element signature="method#onUpgrade#0;class#DBHelper#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4416,11 +4378,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ediit.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/eating.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -4441,27 +4398,13 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/Acitvity.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/widget/ArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="5899">
+          <caret line="381" column="28" lean-forward="false" selection-start-line="381" selection-start-column="28" selection-end-line="381" selection-end-column="28" />
           <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#14510#14511#0" expanded="false" />
+            <element signature="e#14541#14542#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4477,25 +4420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/NewHabitActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="53" column="13" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="53" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/widget/ArrayAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5899">
-          <caret line="381" column="28" lean-forward="false" selection-start-line="381" selection-start-column="28" selection-end-line="381" selection-end-column="28" />
-          <folding>
-            <element signature="e#14510#14511#0" expanded="false" />
-            <element signature="e#14541#14542#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/NewHabitAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -4504,20 +4428,145 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/NewHabitActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="53" column="13" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="53" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ediit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <element signature="method#onCreate#0;class#DBHelper#0" expanded="false" />
+            <element signature="method#onUpgrade#0;class#DBHelper#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/Acitvity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_thankful_diary.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_water_entry.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/WaterEntryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding>
+            <element signature="method#open#0;class#DataSource#0" expanded="false" />
+            <element signature="method#insertCustomHabit#0;class#DataSource#0" expanded="false" />
+            <element signature="method#updateHabit#0;class#DataSource#0" expanded="false" />
+            <element signature="method#deleteContact#0;class#DataSource#0" expanded="false" />
+            <element signature="method#getDefaultHabits#0;class#DataSource#0" expanded="false" />
+            <element signature="method#getUserThoughtLog#0;class#DataSource#0" expanded="false" />
+            <element signature="method#deleteUserHabit#0;class#DataSource#0" expanded="false" />
+            <element signature="method#updateHabitProgress#0;class#DataSource#0" expanded="false" />
+            <element signature="method#insertEmotiont#0;class#DataSource#0" expanded="false" />
+            <element signature="method#getUserHabitsEntry#0;class#DataSource#0" expanded="false" />
+            <element signature="e#12199#12216#0" expanded="true" />
+            <element signature="method#getUserNote#0;class#DataSource#0" expanded="false" />
+            <element signature="method#getUserNoteById#0;class#DataSource#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ThankfulDiary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ProgressChartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="135" column="67" lean-forward="false" selection-start-line="135" selection-start-column="67" selection-end-line="135" selection-end-column="67" />
+        <state relative-caret-position="95">
+          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#3644:4066" expanded="false" />
-            <element signature="e#4941#4958#0" expanded="true" />
-            <element signature="method#initHabits#0;class#ProgressChartActivity#0" expanded="false" />
+            <element signature="class#3696:4118" expanded="false" />
+            <element signature="e#4993#5010#0" expanded="true" />
             <element signature="method#initEmotions#0;class#ProgressChartActivity#0" expanded="false" />
-            <element signature="method#initDiary#0;class#ProgressChartActivity#0" expanded="false" />
             <element signature="method#AddValuesToBARENTRY#0;class#ProgressChartActivity#0" expanded="false" />
             <element signature="method#AddValuesToBarEntryLabels#0;class#ProgressChartActivity#0" expanded="false" />
-            <element signature="e#8393#8403#0" expanded="true" />
+            <element signature="e#8740#8750#0" expanded="true" />
             <element signature="method#onBackPressed#0;class#ProgressChartActivity#0" expanded="false" />
           </folding>
         </state>
@@ -4525,15 +4574,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/serenidad/ChartAdaptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="85" column="19" lean-forward="false" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+        <state relative-caret-position="113">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1118#1126#0" expanded="false" />
-            <element signature="e#2072#3280#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-            <element signature="e#3334#3335#0" expanded="true" />
-            <element signature="e#3368#3369#0" expanded="true" />
+            <element signature="e#1149#1157#0" expanded="false" />
           </folding>
         </state>
       </provider>

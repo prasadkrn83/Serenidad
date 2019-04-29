@@ -378,4 +378,35 @@ public class DataSource {
         }
         return Notes;
     }
+
+    public ArrayList<Diary> getUserNoteById(String id) {
+        ArrayList<Diary> Notes = new ArrayList<Diary>();
+        try {
+            String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+            String query = "SELECT  * FROM thankfuldiary" +" where noteid="+ id;
+
+            Cursor cursor = database.rawQuery(query, null);
+
+            Diary note;
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                note = new Diary();                                          //1
+                note.setAct(cursor.getString  (cursor.getColumnIndex("act")));
+                note.setNote(cursor.getString(cursor.getColumnIndex("note")));
+                note.setUserName(cursor.getString(cursor.getColumnIndex("username")));
+                note.setNoteDate(cursor.getString(cursor.getColumnIndex("notedate")));
+                note.setNoteId(cursor.getInt(cursor.getColumnIndex("noteid")));
+                Notes.add(note);
+                cursor.moveToNext();
+            }
+            cursor.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            Notes = new ArrayList<Diary>();
+        }
+        return Notes;
+    }
+
+
 }

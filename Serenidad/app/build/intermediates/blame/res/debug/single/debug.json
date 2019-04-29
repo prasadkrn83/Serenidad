@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -48,32 +48,32 @@
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_habit_item.xml.flat",
         "source": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\src\\main\\res\\layout\\list_habit_item.xml"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_subheader.xml.flat",
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a4d73dd43c1e93ea181ff59d4d04429f\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_design_tint_password_toggle.xml.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a4d73dd43c1e93ea181ff59d4d04429f\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_design_tint_password_toggle.xml.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a4d73dd43c1e93ea181ff59d4d04429f\\res\\color-v23\\design_tint_password_toggle.xml"
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -144,24 +144,24 @@
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a4d73dd43c1e93ea181ff59d4d04429f\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a4d73dd43c1e93ea181ff59d4d04429f\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -224,12 +224,12 @@
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_top.xml.flat",
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -324,12 +324,12 @@
         "source": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\src\\main\\res\\layout\\activity_journalofthot_feeling.xml"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plus.png.flat",
@@ -404,12 +404,12 @@
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\3e2518e79fa720fd0ddf3b04b656bb3b\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -424,16 +424,16 @@
         "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a7a0bc44c47777cfd624fc5eb2218f3c\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\raw_sixth.mp3.flat",
-        "source": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\src\\main\\res\\raw\\sixth.mp3"
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_bottom_navigation_item_background.xml.flat",
+        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a4d73dd43c1e93ea181ff59d4d04429f\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_journalofthot_emotionmeter.xml.flat",
         "source": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\src\\main\\res\\layout\\activity_journalofthot_emotionmeter.xml"
     },
     {
-        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_bottom_navigation_item_background.xml.flat",
-        "source": "C:\\Users\\hemil\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a4d73dd43c1e93ea181ff59d4d04429f\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+        "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\raw_sixth.mp3.flat",
+        "source": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\src\\main\\res\\raw\\sixth.mp3"
     },
     {
         "merged": "D:\\AndroidApps\\Projects\\Serenidad\\Serenidad\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_btn_ripple_color.xml.flat",

@@ -40,7 +40,7 @@ public class ProgressChartActivity extends AppCompatActivity {
     ImageButton actionBarForward;
     TextView actionBarBack1;
 
-    private String user_name="";
+    private String user_name="1";
     private String AxisValue = "";
     private String xAxisValue = "";
     private String finalXAxisValue = "";
@@ -51,7 +51,7 @@ public class ProgressChartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_progress_chart);
-
+        userActivities = new ArrayList<Acitvity>();
         initHabits();
         initEmotions();
         initDiary();
@@ -160,6 +160,8 @@ public class ProgressChartActivity extends AppCompatActivity {
                 temp.setActImage(i.getHabiticon());
                 temp.setActResult(i.getScale());
                 temp.setActTitle(i.getHabitname());
+                temp.setActType("H");
+                temp.setId(String.valueOf(i.getHabitid()));
                 userActivities.add(temp);
             }
             ds.close();
@@ -185,6 +187,8 @@ public class ProgressChartActivity extends AppCompatActivity {
                 temp.setActImage("emoji.png");
                 temp.setActResult(i.getFeelings());
                 temp.setActTitle("Thouoght");
+                temp.setActType("E");
+                temp.setId(String.valueOf(i.getThoughtId()));
                 userActivities.add(temp);
             }
             ds.close();
@@ -208,9 +212,11 @@ public class ProgressChartActivity extends AppCompatActivity {
 
                 temp = new Acitvity();
                 temp.setActDate(i.getNoteDate());
-                temp.setActImage("emoji.png");
+                temp.setActImage("ediit.png");
                 temp.setActResult(i.getAct());
                 temp.setActTitle("Diary");
+                temp.setActType("D");
+                temp.setId(String.valueOf(i.getNoteId()));
                 userActivities.add(temp);
             }
             ds.close();

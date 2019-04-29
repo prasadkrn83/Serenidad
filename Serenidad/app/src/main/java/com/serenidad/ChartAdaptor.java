@@ -1,5 +1,6 @@
 package com.serenidad;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -55,28 +56,23 @@ public class ChartAdaptor extends RecyclerView.Adapter<ChartAdaptor.InvoiceViewH
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                FragmentTransaction transaction = fragmentManager.beginTransaction();
-//
-//                if (names.get(holder.getAdapterPosition()).contains("Thought")) {
-//                    Fragment fragment = new ThoughtFragment();
-//                    Bundle bundle = new Bundle();
-//                    bundle.putString("date", dates);
-//                    fragment.setArguments(bundle);
-//
-//                    transaction.replace(R.id.frameLayout, fragment);
-//                    transaction.addToBackStack(null);
-//                    transaction.commit();
-//                } else {
-//                    Bundle bundle = new Bundle();
-//                    bundle.putString("date", dates);
-//                    bundle.putString("glasses", glasses);
-//                    MessagesFragment fragment2 = new MessagesFragment();
-//                    fragment2.setArguments(bundle);
-//
-//                    transaction.replace(R.id.frameLayout, fragment2);
-//                    transaction.addToBackStack(null);
-//                    transaction.commit();
-//                }
+                FragmentTransaction transaction = fragmentManager.beginTransaction();
+
+                if (acts.get(holder.getAdapterPosition()).getActType().equalsIgnoreCase("H")) {
+                    Intent intent = new Intent(v.getContext(),WaterEntryActivity.class);
+                    intent.putExtra("id",acts.get(holder.getAdapterPosition()).getId());
+                    v.getContext().startActivity(intent);
+                } else if(acts.get(holder.getAdapterPosition()).getActType().equalsIgnoreCase("D")){
+                    Intent intent = new Intent(v.getContext(),WaterEntryActivity.class);
+                    intent.putExtra("id",acts.get(holder.getAdapterPosition()).getId());
+                    v.getContext().startActivity(intent);
+                }
+                else{
+
+                    Intent intent = new Intent(v.getContext(),ProgressThoughtLogActivity.class);
+                    intent.putExtra("id",acts.get(holder.getAdapterPosition()).getId());
+                    v.getContext().startActivity(intent);
+                }
             }
         });
     }

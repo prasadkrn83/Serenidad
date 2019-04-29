@@ -5,6 +5,25 @@ public class Acitvity {
     private String actTitle;
     private String actDate;
     private String actResult;
+    private String id;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getActType() {
+        return actType;
+    }
+
+    public void setActType(String actType) {
+        this.actType = actType;
+    }
+
+    private String actType;
 
     public String getActImage() {
         return actImage;
