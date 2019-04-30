@@ -28,8 +28,8 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private static final String CREATE_TABLE_USER_HABIT =
             "create table userhabit (habitid integer , "
-                    + "userid integer,isdeleted int," +
-                    " primary key(habitid,userid)," +
+                    + "username text,isdeleted int," +
+                    " primary key(habitid,username)," +
                     " foreign key(habitid) references habit(habitid)); ";
 
 
@@ -44,18 +44,20 @@ public class DBHelper extends SQLiteOpenHelper {
                     "note text,act text, notedate datetime)";
 
     private static final String CREATE_TABLE_USER_HABIT_ENTRY =
-            "create table userhabitentry (userid integer ,habitid integer, "
+            "create table userhabitentry (username text ,habitid integer, "
                     + "entrydate date, value int," +
-                    " primary key(userid,habitid,entrydate)," +
+                    " primary key(username,habitid,entrydate)," +
                     " foreign key(habitid) references habit(habitid)); ";
-    public DBHelper(Context context) {
-        super(context, DATABASE_NAME, null, DATABASE_VERSION);
-    }
 
 
     private static final String CREATE_TABLE_USER =
             "create table user (userid integer primary key autoincrement not null, "
                     + "username text not null, password text not null,email text not null); ";
+
+
+    public DBHelper(Context context) {
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);
+    }
 
 
     @Override

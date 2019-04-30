@@ -1,7 +1,9 @@
 package com.serenidad;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -64,9 +66,11 @@ public class HealthMainActivity extends AppCompatActivity {
 
     private void initHabits() {
         DataSource ds = new DataSource(getApplicationContext());
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        String username = preferences.getString("username","");
         try {
             ds.open();
-            ArrayList<Habit> userHabits = ds.getUserHabits();
+            ArrayList<Habit> userHabits = ds.getUserHabits(username);
             ds.close();
             if(userHabits!=null && userHabits.size()>0){
                 FragmentManager fm = getSupportFragmentManager();

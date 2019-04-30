@@ -10,9 +10,9 @@
 
     <Button
         android:id="@+id/buttonNext"
-        android:layout_width="104dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="92dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="324dp"
         android:background="@drawable/btn"
         android:backgroundTint="#39FF44"
@@ -25,9 +25,9 @@
 
     <Button
         android:id="@+id/buttonCancel"
-        android:layout_width="104dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="15dp"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="6dp"
         android:layout_marginTop="324dp"
         android:background="@drawable/btn"
         android:backgroundTint="#ff0000"
@@ -40,22 +40,23 @@
 
     <EditText
         android:id="@+id/textHabit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="142dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="84dp"
+        android:background="@android:color/transparent"
         android:enabled="false"
         android:text="TextView"
-        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@android:color/transparent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/habitIcon"
-        android:layout_width="80dp"
-        android:layout_height="73dp"
+        android:layout_width="50dp"
+        android:layout_height="58dp"
         android:layout_marginStart="144dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,9 +68,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="176dp"
         android:text="Min"
-        android:textSize="24sp"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -118,11 +119,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="180dp"
         android:background="@android:color/transparent"
         android:enabled="false"
         android:text="TextView"
-        android:textSize="24sp"
+        android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/buttonPlusMin"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -130,9 +131,9 @@
         android:id="@+id/textMin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="176dp"
-        android:textSize="24sp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="186dp"
+        android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/buttonMinusMin"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -140,9 +141,9 @@
         android:id="@+id/textMax"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
-        android:textSize="24sp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="65dp"
+        android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/buttonMinusMax"
         app:layout_constraintTop_toBottomOf="@+id/textMin" />
 
@@ -151,11 +152,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="64dp"
         android:background="@android:color/transparent"
         android:enabled="false"
         android:text="TextView"
-        android:textSize="24sp"
+        android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/buttonPlusMax"
         app:layout_constraintTop_toBottomOf="@+id/textMinScale" />
 
@@ -163,18 +164,18 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
         android:text="Max"
-        android:textSize="24sp"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
         android:id="@+id/buttonDelete"
-        android:layout_width="104dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="15dp"
+        android:layout_width="103dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="6dp"
         android:layout_marginTop="324dp"
         android:background="@drawable/btn"
         android:backgroundTint="@color/disabledDelete"

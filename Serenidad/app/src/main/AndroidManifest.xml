@@ -15,7 +15,10 @@
         <activity android:name=".ContactUs"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".Home"
+            android:name=".HealthHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,9 +53,17 @@
         <activity android:name=".ProgressHelpActivity" />
         <activity android:name=".ProgressChartActivity" />
         <activity android:name=".WaterEntryActivity" />
-        <activity
-            android:name=".NewHabitActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-    </application>
+        <activity android:name=".NewHabitActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".HealthMainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+         <activity android:name=".Home"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".Register"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+  </application>
 
 </manifest>

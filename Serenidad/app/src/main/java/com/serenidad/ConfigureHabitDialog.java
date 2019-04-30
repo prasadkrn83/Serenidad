@@ -6,8 +6,10 @@ package com.serenidad;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -201,12 +203,16 @@ public class ConfigureHabitDialog extends DialogFragment {                      
                 try {
                     ds.open();
                     boolean updated = false;
+                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+                    String username = preferences.getString("username","");
+
+
                     if(addCustomHabit){
                         selectedHabit.setMin(minVal);
                         selectedHabit.setMax(maxVal);
-                        ds.insertCustomHabit(selectedHabit,1);
+                        ds.insertCustomHabit(selectedHabit,username);
                     }else {
-                        updated = ds.updateHabit(minVal, maxVal, selectedHabitId, 1);
+                        updated = ds.updateHabit(minVal, maxVal, selectedHabitId, username);
                     }ds.close();
                     if(updated){
                         Toast.makeText(getContext(),"Habit Configured Successfully",Toast.LENGTH_LONG);
