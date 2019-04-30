@@ -237,10 +237,12 @@ public class ProgressChartActivity extends AppCompatActivity {
 
     public void AddValuesToBARENTRY(){
 
+        int i=0;
         for (Map.Entry<String, Integer> val : habitdatesHM.entrySet()) {
 
             BarEntryLabels.add(val.getKey());
-            BARENTRY.add(new BarEntry(Float.valueOf(val.getValue().toString().trim()).floatValue(), 0));
+            BARENTRY.add(new BarEntry(Float.valueOf(val.getValue().toString().trim()).floatValue(), i));
+            i++;
         }
 //        BARENTRY.add(new BarEntry(3f, 0));
 //        BARENTRY.add(new BarEntry(4f, 1));
