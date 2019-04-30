@@ -161,27 +161,27 @@ public class journalofthot_feeling extends AppCompatActivity {
 
 
         String []arrayemotions={};
-        if (s.equals("Happy")) {
-            String[] arrhappy = {"Cheerful", "Awesome", "Nice", "Good", "Energetic"};
+        if (s.equals("Feliz")) {
+            String[] arrhappy = {"Alegre", "Increíble", "Bonito", "Good", "Bueno"};
             arrayemotions=arrhappy;
         }
-        else if(s.equals("Sad")) {
-            String[] arrbad = {"Crazy", "Dull", "Sleepy", "Nervous", "Bored"};
+        else if(s.equals("Triste")) {
+            String[] arrbad = {"Loco", "Aburrido", "Soñoliento", "Nervioso", "aburrido"};
             arrayemotions=arrbad;
 
         }
-        else if(s.equals("VerySad")) {
-            String[] arrbad = {"Unhappy", "Gloomy", "Sick", "Down", "Crushed"};
+        else if(s.equals("Muy triste")) {
+            String[] arrbad = {"Infeliz", "Melancólico", "Sick", "Enfermos", "Aplastada"};
             arrayemotions=arrbad;
 
         }
-        else if(s.equals("Crazy")) {
-            String[] arrbad = {"Mourning", "Rueful", "Dead", "Angry", "Annoyed"};
+        else if(s.equals("Loco")) {
+            String[] arrbad = {"Luto", "Triste", "Muerto", "Enojado", "Irritado"};
             arrayemotions=arrbad;
 
         }
-        else if(s.equals("VeryHappy")) {
-            String[] arrbad = {"Great", "Sporty", "OnTop", "Wow", "Blissful"};
+        else if(s.equals("Muy feliz")) {
+            String[] arrbad = {"Genial", "Deportivo", "Encima", "Guau", "Feliz"};
             arrayemotions=arrbad;
 
         }
