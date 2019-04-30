@@ -296,7 +296,7 @@ public class DataSource {
         ArrayList<JournalThoughts> Thoughts = new ArrayList<JournalThoughts>();
         try {
             String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
-            String query = "SELECT  * FROM thoughtlog" +" where username="+ id;
+            String query = "SELECT  * FROM thoughtlog" +" where username='"+ id+"'";
 
             Cursor cursor = database.rawQuery(query, null);
 
@@ -330,7 +330,7 @@ public class DataSource {
         ArrayList<Diary> Notes = new ArrayList<Diary>();
         try {
             String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
-            String query = "SELECT  * FROM thankfuldiary" +" where username="+ id;
+            String query = "SELECT  * FROM thankfuldiary" +" where username='"+ id+"'";
 
             Cursor cursor = database.rawQuery(query, null);
 
