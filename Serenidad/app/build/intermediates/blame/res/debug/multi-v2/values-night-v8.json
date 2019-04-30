@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kruna\\Downloads\\Serenidad\\Serenidad\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\oms\\Desktop\\ProjectSPE\\Serenidad\\Serenidad\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kruna\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6562c18c59dfe5ded1c2fd7eeecb4e9d\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\oms\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\95d0f66e598b5c08f34b5ace5d4b423e\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

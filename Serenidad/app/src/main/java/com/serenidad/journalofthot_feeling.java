@@ -162,7 +162,7 @@ public class journalofthot_feeling extends AppCompatActivity {
 
         String []arrayemotions={};
         if (s.equals("Feliz")) {
-            String[] arrhappy = {"Alegre", "Increíble", "Bonito", "Good", "Bueno"};
+            String[] arrhappy = {"Alegre", "Increíble", "Bonito", "Bueno", "Bueno"};
             arrayemotions=arrhappy;
         }
         else if(s.equals("Triste")) {
@@ -171,7 +171,7 @@ public class journalofthot_feeling extends AppCompatActivity {
 
         }
         else if(s.equals("Muy triste")) {
-            String[] arrbad = {"Infeliz", "Melancólico", "Sick", "Enfermos", "Aplastada"};
+            String[] arrbad = {"Infeliz", "Melancólico", "Enfermos", "Enfermos", "Aplastada"};
             arrayemotions=arrbad;
 
         }
