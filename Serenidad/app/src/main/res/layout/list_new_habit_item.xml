@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/habitIcon"
-        android:layout_width="62dp"
-        android:layout_height="53dp"
+        android:layout_width="53dp"
+        android:layout_height="38dp"
         android:layout_marginStart="45dp"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,10 +18,10 @@
         android:id="@+id/textHabit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="47dp"
         android:text="Habit"
-        android:textSize="24sp"
+        android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/habitIcon"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
