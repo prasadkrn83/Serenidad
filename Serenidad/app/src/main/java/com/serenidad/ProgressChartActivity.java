@@ -193,9 +193,9 @@ public class ProgressChartActivity extends AppCompatActivity {
 
                 temp = new StoreActivity();
                 temp.setActDate(i.getThoughtDate());
-                temp.setActImage(i.getEmotion());
+                temp.setActImage(i.getEmotion().toLowerCase());
                 temp.setActResult(i.getEmotion());
-                temp.setActTitle("Thouoght");
+                temp.setActTitle("Pensamiento");
                 temp.setActType("E");
                 temp.setId(String.valueOf(i.getThoughtId()));
                 userActivities.add(temp);
@@ -223,7 +223,7 @@ public class ProgressChartActivity extends AppCompatActivity {
                 temp.setActDate(i.getNoteDate());
                 temp.setActImage("ediit");
                 temp.setActResult(i.getAct());
-                temp.setActTitle("Diary");
+                temp.setActTitle("Diario");
                 temp.setActType("D");
                 temp.setId(String.valueOf(i.getNoteId()));
                 userActivities.add(temp);
