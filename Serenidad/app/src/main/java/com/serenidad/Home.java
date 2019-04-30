@@ -72,8 +72,8 @@ public class Home extends AppCompatActivity {
                 break;
             case R.id.sevenImageView:
                 // do your code
-                /*intent = new Intent(getApplicationContext(), MeditationSelectionActivity.class);
-                startActivity(intent);*/
+                intent = new Intent(getApplicationContext(), ProfileActivity.class);
+                startActivity(intent);
                 break;
             case R.id.eightImageView:
 

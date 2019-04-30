@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/shekhar/Serenidad/Serenidad/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "C:\\Users\\kruna\\Downloads\\Serenidad\\Serenidad\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/shekhar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5e3df5f6fe29d0b96a7d0e6dd4475497/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "C:\\Users\\kruna\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6562c18c59dfe5ded1c2fd7eeecb4e9d\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

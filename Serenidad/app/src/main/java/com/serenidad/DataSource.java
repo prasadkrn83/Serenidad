@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.icu.text.SimpleDateFormat;
+import android.util.Log;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -489,6 +490,24 @@ public class DataSource {
             //Do nothing -will eturn false if there is an exception
             e.printStackTrace();
         }
+    }
+
+    public String getEmail(String username){
+        String email = "";
+        try{
+
+            String Q = "SELECT * FROM user WHERE username='"+username+"'";
+            Cursor userData = database.rawQuery(Q,null);
+            if(userData!=null ){
+                Log.d("Datasource", "getEmail: "+userData.getCount());
+                userData.moveToFirst();
+                email = userData.getString(userData.getColumnIndex("email"));
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return  email;
     }
 
     public boolean isUserRegistered(String email) {
