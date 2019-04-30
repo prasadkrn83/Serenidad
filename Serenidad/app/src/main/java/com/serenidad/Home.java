@@ -3,14 +3,33 @@ package com.serenidad;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class Home extends AppCompatActivity {
-
+    ImageButton actionBarBack;
+    TextView actionBarBack1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        actionBarBack = findViewById(R.id.action_bar_back);
+        actionBarBack1 = findViewById(R.id.action_bar_back1);
+        actionBarBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+        actionBarBack1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
     }
 
     public void selectButton(View view) {
@@ -65,5 +84,12 @@ public class Home extends AppCompatActivity {
             default:
                 break;
         }
+    }
+    @Override
+    public void onBackPressed()
+    {
+        Log.d("OnBackPressed Called", "inside onbackpressed");
+        // code here to show dialog
+        super.onBackPressed();  // optional depending on your needs
     }
 }
