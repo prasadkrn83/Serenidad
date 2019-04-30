@@ -3,6 +3,7 @@ package com.serenidad;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,7 @@ import java.sql.SQLException;
 
 public class journalofthot_behaviour extends AppCompatActivity {
     SharedPreferences sharedpreferences;
+    SharedPreferences sharedpreferencesdef;
 
 
     TextView name;
@@ -96,6 +98,7 @@ public class journalofthot_behaviour extends AppCompatActivity {
         String behaviourAfterThought;
         String behaviourReaction;
 
+        sharedpreferencesdef = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
         sharedpreferences = getSharedPreferences(feelpref,
                 Context.MODE_PRIVATE);
@@ -124,10 +127,15 @@ public class journalofthot_behaviour extends AppCompatActivity {
         t.setText(emotion+feelings+ thoughtDate+ situatationWhom +situationWhen +situationWhere +behaviourAfterThought +behaviourReaction);
         DataSource d = new DataSource(getApplicationContext());
         JournalThoughts j = new JournalThoughts();
+        String uname= sharedpreferencesdef.getString("username","");
         try {
             d.open();
             //j.setThoughtId();
-            //j.setUserName();
+
+
+
+
+            j.setUserName(uname);
             j.setEmotion(emotion);
             j.setFeelings(feelings);
             j.setThoughtDate(thoughtDate);

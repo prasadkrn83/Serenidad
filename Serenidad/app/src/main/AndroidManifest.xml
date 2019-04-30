@@ -48,6 +48,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ProgressThoughtLogActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".journalofthot_situation"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
