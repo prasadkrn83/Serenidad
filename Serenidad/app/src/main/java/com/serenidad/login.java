@@ -43,8 +43,8 @@ public class login extends AppCompatActivity {
                 if (isValidUser) {
                     SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
                     SharedPreferences.Editor editor = preferences.edit();
-                    editor.putString("Name", uname);
-                    editor.putString("Pass", pass);
+                    editor.putString("username", uname);
+                    //editor.putString("Pass", pass);
                     editor.apply();
                     Intent intent = new Intent(this, Home.class);
                     startActivity(intent);
