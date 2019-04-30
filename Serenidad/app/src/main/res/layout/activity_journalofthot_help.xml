@@ -36,7 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="My Progress"
+                    android:text="Diario de Pensamientos"
                     android:textColor="#1a212b"
                     android:textSize="20dp" />
 
@@ -54,7 +54,7 @@
                     style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="This Application has several modules.One module to register your daily thoughts,one module to register your awareness thoughts,one module to register healthy habits,one module to listen to positive affirmations,and one module for meditations.The patients will use the above modules. The treating doctor will see reports related to the patients ."
+                    android:text="Esta aplicación tiene varios módulos. Un módulo para registrar sus pensamientos diarios, un módulo para registrar sus pensamientos de conciencia, un módulo para registrar hábitos saludables, un módulo para escuchar afirmaciones positivas y un módulo para meditaciones. Los pacientes usarán los módulos anteriores . El médico tratante verá informes relacionados con los pacientes. ."
                     android:textSize="10dp" />
 
             </LinearLayout>

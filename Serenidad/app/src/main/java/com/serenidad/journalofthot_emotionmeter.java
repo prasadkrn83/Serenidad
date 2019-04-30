@@ -53,33 +53,33 @@ public class journalofthot_emotionmeter extends AppCompatActivity {
                     v.setImageResource(R.drawable.crazy);
                     seekBar.getProgressDrawable().setColorFilter(Color.parseColor("#E12D1F"), PorterDuff.Mode.SRC_IN);
                     Intent intent = new Intent(journalofthot_emotionmeter.this, journalofthot_feeling.class);
-                    intent.putExtra("message", "Crazy");
+                    intent.putExtra("message", "Loco");
                     startActivity(intent);
                 }else if(actualProgress>2 && actualProgress<=4) {
                     v.setImageResource(R.drawable.vsad);
                     seekBar.getProgressDrawable().setColorFilter(Color.parseColor("#C55A11"), PorterDuff.Mode.SRC_IN);
                     Intent intent = new Intent(journalofthot_emotionmeter.this, journalofthot_feeling.class);
-                    intent.putExtra("message", "VerySad");
+                    intent.putExtra("message", "Muy triste");
                     startActivity(intent);
 
                 }else if(actualProgress>4 && actualProgress<=6) {
                     v.setImageResource(R.drawable.sad);
                     seekBar.getProgressDrawable().setColorFilter(Color.parseColor("#E1C000"), PorterDuff.Mode.SRC_IN);
                     Intent intent = new Intent(journalofthot_emotionmeter.this, journalofthot_feeling.class);
-                    intent.putExtra("message", "Sad");
+                    intent.putExtra("message", "Triste");
                     startActivity(intent);
                 }else if(actualProgress>6 && actualProgress<=8) {
                     v.setImageResource(R.drawable.happy);
                     seekBar.getProgressDrawable().setColorFilter(Color.parseColor("#92D050"), PorterDuff.Mode.SRC_IN);
                     Intent intent = new Intent(journalofthot_emotionmeter.this, journalofthot_feeling.class);
-                    intent.putExtra("message", "Happy");
+                    intent.putExtra("message", "Feliz");
                     startActivity(intent);
                 }
                 else if(actualProgress>8 && actualProgress<=10) {
                     v.setImageResource(R.drawable.vhappy);
                     seekBar.getProgressDrawable().setColorFilter(Color.parseColor("#385723"), PorterDuff.Mode.SRC_IN);
                     Intent intent = new Intent(journalofthot_emotionmeter.this, journalofthot_feeling.class);
-                    intent.putExtra("message", "VeryHappy");
+                    intent.putExtra("message", "Muy feliz");
                     startActivity(intent);
                 }
 
