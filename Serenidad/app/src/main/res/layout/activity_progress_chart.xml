@@ -46,7 +46,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:padding="10dp"
-            android:text="Serenidad"
+            android:text="Mi Mente"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textStyle="bold" />
 

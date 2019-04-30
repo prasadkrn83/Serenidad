@@ -51,7 +51,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:padding="10dp"
-            android:text="Thankful Diary"
+            android:text=" Diario agradecido"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textStyle="bold" />
 
@@ -103,7 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Thankful Diary"
+                android:text=" Diario agradecido"
                 android:textColor="#1a212b"
                 android:textSize="20dp" />
 
@@ -121,7 +121,7 @@
                 style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="This app has several modules. One module to register your daily thoughts, one module to register your awareness thoughts, one module to register healthy habits such as eating, breathing and one module to listen to positive affirmations and one module for meditations. Patients will use the above module, the treating doctor will see reports related to his/her patients."
+                android:text="Esta aplicación tiene varios módulos. Un módulo para registrar sus pensamientos diarios, un módulo para registrar sus pensamientos de conciencia, un módulo para registrar hábitos saludables como comer, respirar y un módulo para escuchar afirmaciones positivas y un módulo para meditaciones. Los pacientes usarán el módulo anterior, el médico tratante verá informes relacionados con sus pacientes."
                 android:textSize="10dp" />
 
         </LinearLayout>
@@ -134,11 +134,11 @@
 
             <Button
                 android:id="@+id/btn_help_got"
-                android:background="@drawable/btn"
                 android:layout_width="210dp"
                 android:layout_height="35dp"
+                android:background="@drawable/btn"
                 android:backgroundTint="#39FF44"
-                android:text="Oky, Got it !"
+                android:text="Ok, lo tengo !"
                 android:textAllCaps="false"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />

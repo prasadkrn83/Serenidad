@@ -20,7 +20,7 @@
             android:id="@+id/txtTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Thoughtful Diary"
+            android:text="Diario pensativo"
             android:textColor="@android:color/black"
             android:textSize="30dp" />
 
@@ -71,11 +71,11 @@
 
         <Button
             android:id="@+id/btn_water_got_it"
-            android:background="@drawable/btn"
             android:layout_width="210dp"
             android:layout_height="35dp"
+            android:background="@drawable/btn"
             android:backgroundTint="#39FF44"
-            android:text="Oky, Got it !"
+            android:text="Ok, lo tengo !"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             android:textStyle="bold" />

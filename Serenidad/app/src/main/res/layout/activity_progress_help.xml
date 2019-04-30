@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="My Progress"
+                android:text="Mi progreso "
                 android:textColor="#1a212b"
                 android:textSize="20dp" />
 
@@ -55,7 +55,7 @@
                 style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Monitor your daily progress, number of activities and achivements . You can also understand where you stand and how much you have progressed. Your doctor will also be able to see this report and help you achive your goals faster."
+                android:text="Monitorea tu progreso diario, número de actividades y logros. También puedes entender dónde estás parado y cuánto has progresado. Su médico también podrá ver este informe y ayudarlo a alcanzar sus metas más rápido."
                 android:textSize="10dp" />
 
         </LinearLayout>
@@ -68,11 +68,11 @@
 
             <Button
                 android:id="@+id/btn_help_got"
-                android:background="@drawable/btn"
                 android:layout_width="210dp"
                 android:layout_height="35dp"
+                android:background="@drawable/btn"
                 android:backgroundTint="#39FF44"
-                android:text="Oky, Got it !"
+                android:text="Ok, lo tengo !"
                 android:textAllCaps="false"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />
