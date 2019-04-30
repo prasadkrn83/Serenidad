@@ -529,5 +529,22 @@ public class DataSource {
         return isValidUser;
     }
 
+    public void updateUserPass(String password,String email) {
+        try {
+            //String Q = "update user set password='" + password+"'  WHERE email='"
+            //        + email+"'";
+
+            ContentValues cv = new ContentValues();
+            cv.put("password",password);
+
+            database.update("user", cv, "email='" + email+"'", null);
+
+
+        }
+        catch (Exception e) {
+            //Do nothing -will eturn false if there is an exception
+            e.printStackTrace();
+        }
+    }
 
 }

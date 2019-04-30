@@ -2,8 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.serenidad">
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <dist:module dist:instant="true" />
 
     <application
@@ -13,7 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".EditProfileActivity" />
         <activity android:name=".Signupctivity" />
         <activity
@@ -34,8 +36,9 @@
         <activity
             android:name=".HealthMainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MeditationHelpActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".MeditationHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MeditationActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -69,8 +72,9 @@
         <activity
             android:name=".ThankfulDiaryHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ThankfulDiary"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ThankfulDiary"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ProgressHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -89,6 +93,8 @@
         <activity
             android:name=".Register"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".EmailPassword"></activity>
     </application>
 
 </manifest>

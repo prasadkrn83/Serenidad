@@ -38,20 +38,20 @@ public class Register extends AppCompatActivity {
         }else{
             if(pass.equals(confirmPass)) {
                 try{
-                ds.open();
-                if (ds.isUserRegistered(email)) {
-                    ds.insertUser(uname, pass, email);
-                    Intent intent = new Intent(this, login.class);
-                    startActivity(intent);
-                } else {
-                    Toast toast = Toast.makeText(getApplicationContext(),
-                            "User already present",
-                            Toast.LENGTH_SHORT);
-                    toast.show();
-                }
-            }catch(Exception e){
-                e.printStackTrace();
-            }finally {
+                    ds.open();
+                    if (ds.isUserRegistered(email)) {
+                        ds.insertUser(uname, pass, email);
+                        Intent intent = new Intent(this, login.class);
+                        startActivity(intent);
+                    } else {
+                        Toast toast = Toast.makeText(getApplicationContext(),
+                                "User already present",
+                                Toast.LENGTH_SHORT);
+                        toast.show();
+                    }
+                }catch(Exception e){
+                    e.printStackTrace();
+                }finally {
                     ds.close();
                 }
             }else{

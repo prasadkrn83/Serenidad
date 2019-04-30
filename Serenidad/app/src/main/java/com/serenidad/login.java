@@ -44,7 +44,6 @@ public class login extends AppCompatActivity {
                     SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
                     SharedPreferences.Editor editor = preferences.edit();
                     editor.putString("username", uname);
-
                     //editor.putString("Pass", pass);
                     editor.apply();
                     Intent intent = new Intent(this, Home.class);
@@ -65,6 +64,11 @@ public class login extends AppCompatActivity {
 
     public void register(View view){
         Intent intent=new Intent(this,Register.class);
+        startActivity(intent);
+    }
+
+    public void sendEmail(View view){
+        Intent intent=new Intent(this,EmailPassword.class);
         startActivity(intent);
     }
 
