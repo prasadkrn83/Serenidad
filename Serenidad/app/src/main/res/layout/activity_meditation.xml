@@ -33,7 +33,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:background="@android:color/transparent"
-                android:text="Back"
+                android:text="@string/back"
 
                 />
 
