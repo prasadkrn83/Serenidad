@@ -1,7 +1,6 @@
 package com.serenidad;
 
 import android.content.Intent;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -9,7 +8,6 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.BarChart;
@@ -19,7 +17,7 @@ import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.highlight.Highlight;
 import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
-import com.github.mikephil.charting.utils.ColorTemplate;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -51,7 +49,7 @@ public class ProgressChartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_progress_chart);
-        userActivities = new ArrayList<Acitvity>();
+        userActivities = new ArrayList<StoreActivity>();
         initHabits();
         initEmotions();
         initDiary();
@@ -136,7 +134,7 @@ public class ProgressChartActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String XAXIS = finalXAxisValue.substring(0, 1);
                 String[] newString = Arrays.copyOfRange(listt, 0, Integer.parseInt(XAXIS));
-                ArrayList<Acitvity> newList = filterbyDate(AxisValue);
+                ArrayList<StoreActivity> newList = filterbyDate(AxisValue);
                 ArrayList<String> strings = new ArrayList<>(Arrays.asList(newString));
                 ChartAdaptor homeAdapter = new ChartAdaptor(newList,getSupportFragmentManager() );
                 ;
@@ -147,7 +145,7 @@ public class ProgressChartActivity extends AppCompatActivity {
     }
 
     ArrayList<Habit> userHabits;
-    ArrayList<Acitvity> userActivities;
+    ArrayList<StoreActivity> userActivities;
     Map<String, Integer> habitdatesHM = new HashMap<String, Integer>();
 
     private void initHabits() {
@@ -155,12 +153,12 @@ public class ProgressChartActivity extends AppCompatActivity {
         try {
             ds.open();
             userHabits = ds.getUserHabitsEntry(user_name);
-            Acitvity temp;
+            StoreActivity temp;
             for (Habit i : userHabits) {
                 Integer j = habitdatesHM.get(i.getDate());
                 habitdatesHM.put(i.getDate(), (j == null) ? 1 : j + 1);
 
-                temp = new Acitvity();
+                temp = new StoreActivity();
                 temp.setActDate(i.getDate());
                 temp.setActImage(i.getHabiticon());
                 temp.setActResult(i.getValue() + " " + i.getScale());
@@ -182,12 +180,12 @@ public class ProgressChartActivity extends AppCompatActivity {
         try {
             ds.open();
             userEmotions = ds.getUserThought(user_name);
-            Acitvity temp;
+            StoreActivity temp;
             for (JournalThoughts i : userEmotions) {
                 Integer j = habitdatesHM.get(i.getThoughtDate());
                 habitdatesHM.put(i.getThoughtDate(), (j == null) ? 1 : j + 1);
 
-                temp = new Acitvity();
+                temp = new StoreActivity();
                 temp.setActDate(i.getThoughtDate());
                 temp.setActImage(i.getEmotion());
                 temp.setActResult(i.getEmotion());
@@ -210,12 +208,12 @@ public class ProgressChartActivity extends AppCompatActivity {
             ds.open();
             userDiary = ds.getUserNote(user_name);
 
-            Acitvity temp;
+            StoreActivity temp;
             for (Diary i : userDiary) {
                 Integer j = habitdatesHM.get(i.getNoteDate());
                 habitdatesHM.put(i.getNoteDate(), (j == null) ? 1 : j + 1);
 
-                temp = new Acitvity();
+                temp = new StoreActivity();
                 temp.setActDate(i.getNoteDate());
                 temp.setActImage("ediit");
                 temp.setActResult(i.getAct());
@@ -258,11 +256,11 @@ public class ProgressChartActivity extends AppCompatActivity {
 
     }
 
-    public ArrayList<Acitvity> filterbyDate(String Date){
+    public ArrayList<StoreActivity> filterbyDate(String Date){
 
-        ArrayList<Acitvity> BindingList = new ArrayList<Acitvity>();
+        ArrayList<StoreActivity> BindingList = new ArrayList<StoreActivity>();
 
-        for(Acitvity i : userActivities){
+        for(StoreActivity i : userActivities){
             if(i.getActDate().equalsIgnoreCase(Date))
                 BindingList.add(i);
         }

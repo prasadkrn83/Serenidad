@@ -1,6 +1,6 @@
 package com.serenidad;
 
-public class Acitvity {
+public class StoreActivity {
     private String actImage;
     private String actTitle;
     private String actDate;

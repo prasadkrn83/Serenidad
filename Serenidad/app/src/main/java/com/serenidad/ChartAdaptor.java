@@ -1,18 +1,9 @@
 package com.serenidad;
 
 import android.content.Intent;
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
-import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,10 +14,10 @@ import java.util.ArrayList;
 
 public class ChartAdaptor extends RecyclerView.Adapter<ChartAdaptor.InvoiceViewHolder> {
 
-    private ArrayList<Acitvity> acts;
+    private ArrayList<StoreActivity> acts;
     private FragmentManager fragmentManager;
 
-    ChartAdaptor( ArrayList<Acitvity> acts,FragmentManager fragmentManager) {
+    ChartAdaptor(ArrayList<StoreActivity> acts, FragmentManager fragmentManager) {
         this.acts = acts;
         this.fragmentManager = fragmentManager;
     }

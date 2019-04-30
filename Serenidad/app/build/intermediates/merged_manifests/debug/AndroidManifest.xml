@@ -22,13 +22,10 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.serenidad.MeditationHelpActivity"
+            android:name="com.serenidad.ContactUs"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.serenidad.HealthHelpActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.serenidad.journalofthot_emotionmeter"
+            android:name="com.serenidad.Home"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,23 +33,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.serenidad.HealthMainActivity" />
+        <activity
+            android:name="com.serenidad.MeditationHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.serenidad.HealthHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.serenidad.MeditationActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.serenidad.MeditationSelectionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.serenidad.journalofthot_behaviour" />
+        <activity android:name="com.serenidad.journalofthot_datepick" />
+        <activity android:name="com.serenidad.journalofthot_feeling" />
+        <activity android:name="com.serenidad.journalofthot_help" />
+        <activity android:name="com.serenidad.journalofthot_emotionmeter" />
         <activity android:name="com.serenidad.ProgressThoughtLogActivity" />
         <activity android:name="com.serenidad.MainActivity" />
         <activity
             android:name="com.serenidad.ThankfulDiaryHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <!-- <activity android:name=".ThankfulDiary" /> -->
+        <activity android:name="com.serenidad.ThankfulDiary" />
         <activity android:name="com.serenidad.ProgressHelpActivity" />
+        <activity android:name="com.serenidad.ProgressChartActivity" />
         <activity android:name="com.serenidad.WaterEntryActivity" />
         <activity
             android:name="com.serenidad.NewHabitActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <!-- <activity android:name=".HealthMainActivity"/> -->
-        <!-- <activity android:name=".ProgressChartActivity"/> -->
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
