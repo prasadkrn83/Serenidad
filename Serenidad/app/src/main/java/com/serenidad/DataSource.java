@@ -263,8 +263,8 @@ public class DataSource {
             String query = "SELECT  habit.habitid,habitname,iconname,min,max,scale,value,entrydate FROM userhabit" +
                     " join habit on habit.habitid=userhabit.habitid" +
                     " left  join userhabitentry on userhabit.habitid=userhabitentry.habitid"  +
-                    "          and userhabit.userid=userhabitentry.userid"+
-                    " where userhabit.userid="+ id;
+                    "          and userhabit.username=userhabitentry.username"+
+                    " where userhabit.username='"+ id+"'";
 
             Cursor cursor = database.rawQuery(query, null);
 
