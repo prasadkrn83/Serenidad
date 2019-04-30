@@ -1,6 +1,8 @@
 package com.serenidad;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +19,7 @@ import java.util.ArrayList;
 
 public class ThankfulDiary extends AppCompatActivity {
 
-    private String user_name = "1";
+    private String user_name = "";
     ImageButton actionBarBack;
     ImageButton actionBarForward;
     TextView actionBarBack1;
@@ -26,6 +28,10 @@ public class ThankfulDiary extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thankful_diary);
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        user_name = preferences.getString("username","");
+
         initButton();
 
         actionBarBack = findViewById(R.id.action_bar_back);
