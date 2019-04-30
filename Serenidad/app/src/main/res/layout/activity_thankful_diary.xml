@@ -48,18 +48,17 @@
 
 
         <TextView
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Serenidad"
-            android:gravity="center_horizontal"
-            android:layout_marginRight="20dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textStyle="bold"
-            android:padding="10dp"
             android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
             android:layout_weight="1"
-            />
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Mi Mente"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
 
         <ImageButton
             android:layout_marginRight="10dp"
@@ -93,14 +92,14 @@
             android:src="@drawable/ediit"/>
 
         <TextView
-            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textSize="18dp"
-            android:textStyle="bold"
+            android:layout_marginTop="10dp"
             android:fontFamily="@font/dreamgt"
-            android:text="Thankful Diary"/>
+            android:gravity="center"
+            android:text="Diario agradecido"
+            android:textSize="18dp"
+            android:textStyle="bold" />
 
         <TextView
             android:textSize="12dp"
@@ -128,7 +127,7 @@
             android:background="@drawable/edit"
             android:fontFamily="@font/dreamgt"
             android:gravity="center"
-            android:hint="Write a Thank You Note"
+            android:hint="Escribe una nota de agradecimiento"
             android:textSize="14dp" />
 
         <EditText
@@ -140,7 +139,7 @@
             android:background="@drawable/edit"
             android:fontFamily="@font/dreamgt"
             android:gravity="center"
-            android:hint="Report on Act Of Kindness"
+            android:hint=" Informe sobre el acto de bondad"
             android:textSize="14dp" />
 
     </LinearLayout>
@@ -160,7 +159,7 @@
             android:layout_marginLeft="40dp"
             android:background="@drawable/btn"
             android:backgroundTint="#39FF44"
-            android:text="Save"
+            android:text="Salvar"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
@@ -172,7 +171,7 @@
             android:layout_marginLeft="40dp"
             android:background="@drawable/btn"
             android:backgroundTint="#ff0000"
-            android:text="Cancel"
+            android:text="cancelar"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
