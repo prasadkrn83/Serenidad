@@ -26,38 +26,43 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HealthMainActivity"/>
-        <activity
-            android:name=".MeditationHelpActivity"
+        <activity android:name=".HealthMainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".HealthHelpActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+
+
         <activity
             android:name=".MeditationActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MeditationSelectionActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".journalofthot_behaviour" />
-        <activity android:name=".journalofthot_datepick" />
-        <activity android:name=".journalofthot_feeling" />
-        <activity android:name=".journalofthot_help" />
-        <activity android:name=".journalofthot_emotionmeter" />
-        <activity android:name=".ProgressThoughtLogActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".journalofthot_behaviour"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".journalofthot_datepick"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".journalofthot_feeling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".journalofthot_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".journalofthot_emotionmeter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProgressThoughtLogActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ThankfulDiaryHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
          <activity android:name=".ThankfulDiary" />
-        <activity android:name=".ProgressHelpActivity" />
-        <activity android:name=".ProgressChartActivity" />
-        <activity android:name=".WaterEntryActivity" />
+        <activity android:name=".ProgressHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProgressChartActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WaterEntryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".NewHabitActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
 
-        <activity android:name=".HealthMainActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
          <activity android:name=".Home"
             android:theme="@style/AppTheme.NoActionBar"/>
 
