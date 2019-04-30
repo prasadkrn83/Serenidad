@@ -28,28 +28,15 @@ public class DataSource {
         dbHelper.close();
     }
 
-    public boolean insertCustomHabit() {
-        boolean didSucceed = false;
-        try {
-            ContentValues initialValues = new ContentValues();
 
-            didSucceed = database.insert("habit", null, initialValues) > 0;
-        }
-        catch (Exception e) {
-            //Do nothing -will eturn false if there is an exception
-            e.printStackTrace();
-        }
-        return didSucceed;
-    }
-
-    public boolean updateHabit(int min,int max,int habitid,int userId) {
+    public boolean updateHabit(int min,int max,int habitid,String username) {
         boolean didSucceed = false;
         try {
 
 
                  ContentValues insertValues = new ContentValues();
 
-                insertValues.put("userid", userId);
+                insertValues.put("username", username);
                 insertValues.put("habitid", habitid);
                 insertValues.put("isdeleted", 0);
 
@@ -72,17 +59,7 @@ public class DataSource {
         return didSucceed;
     }
 
-    public boolean deleteContact(int contactId) {
-        boolean didDelete = false;
-        try {
-            didDelete = database.delete("contact", "_id=" + contactId, null) > 0;
-        }
-        catch (Exception e) {
-            //Do nothing -return value already set to false
-            e.printStackTrace();
-        }
-        return didDelete;
-    }
+
 
     public ArrayList<Habit> getDefaultHabits() {
         ArrayList<Habit> habits = new ArrayList<Habit>();
@@ -115,14 +92,14 @@ public class DataSource {
         return habits;
     }
 
-    public ArrayList<Habit> getUserHabits() {
+    public ArrayList<Habit> getUserHabits(String username) {
         ArrayList<Habit> habits = new ArrayList<Habit>();
         try {
             String today = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
             String query = "SELECT  habit.habitid,habitname,iconname,min,max,scale,value FROM userhabit" +
-                    " join habit on habit.habitid=userhabit.habitid" +
+                    " join habit on habit.habitid=userhabit.habitid and userhabit.username='"+username+"'" +
                     " left  join userhabitentry on userhabit.habitid=userhabitentry.habitid"  +
-                    "          and userhabit.userid=userhabitentry.userid" +
+                    "          and userhabit.username=userhabitentry.username" +
                     "          and entrydate='"+today+"'"+
                     " where isdeleted=0" ;
 
@@ -210,13 +187,13 @@ public class DataSource {
         return didSucceed;
     }
 
-    public void updateHabitProgress(int userId, int habitid, int value) {
+    public void updateHabitProgress(String username, int habitid, int value) {
         try {
 
 
           ContentValues insertValues = new ContentValues();
 
-        insertValues.put("userid", userId);
+        insertValues.put("username", username);
         insertValues.put("habitid", habitid);
         insertValues.put("value", value);
         insertValues.put("entrydate", new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
@@ -407,7 +384,7 @@ public class DataSource {
         return Notes;
     }
 
-    public boolean insertCustomHabit(Habit habit,int username) {
+    public boolean insertCustomHabit(Habit habit,String username) {
         boolean didSucceed = false;
         try {
             ContentValues initialValues = new ContentValues();
@@ -426,7 +403,7 @@ public class DataSource {
 
             ContentValues insertValues = new ContentValues();
 
-            insertValues.put("userid", username);
+            insertValues.put("username", username);
             insertValues.put("habitid", id);
             insertValues.put("isdeleted", 0);
 

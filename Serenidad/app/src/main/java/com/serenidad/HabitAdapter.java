@@ -1,9 +1,11 @@
 package com.serenidad;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -118,7 +120,10 @@ public class HabitAdapter extends ArrayAdapter<Habit> {
                     DataSource ds = new DataSource(getContext());
                     try {
                         ds.open();
-                        ds.updateHabitProgress(userid,habitId,actualProgress);
+                        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+                        String username = preferences.getString("username","");
+
+                        ds.updateHabitProgress(username,habitId,actualProgress);
                         ds.close();
                     }catch(SQLException ex){
                         ex.printStackTrace();
