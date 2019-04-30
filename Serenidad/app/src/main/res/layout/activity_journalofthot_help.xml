@@ -67,12 +67,11 @@
 
                 <Button
                     android:id="@+id/btn_help_got"
+                    android:background="@drawable/btn"
                     android:layout_width="210dp"
                     android:layout_height="35dp"
-                    android:background="@drawable/btn"
                     android:backgroundTint="#39FF44"
-                    android:onClick="BackHome"
-                    android:text=" Oky, lo tengo! "
+                    android:text="Oky, Got it !"
                     android:textAllCaps="false"
                     android:textColor="@android:color/white"
                     android:textStyle="bold" />
