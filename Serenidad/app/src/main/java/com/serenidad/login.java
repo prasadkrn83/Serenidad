@@ -46,7 +46,7 @@ public class login extends AppCompatActivity {
                     editor.putString("Name", uname);
                     editor.putString("Pass", pass);
                     editor.apply();
-                    Intent intent = new Intent(this, HealthMainActivity.class);
+                    Intent intent = new Intent(this, Home.class);
                     startActivity(intent);
                 } else {
                     Toast toast = Toast.makeText(getApplicationContext(),
