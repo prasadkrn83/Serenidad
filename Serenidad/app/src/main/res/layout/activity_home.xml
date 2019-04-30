@@ -108,7 +108,7 @@
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
                         android:onClick="selectButton"
-                        android:src="@drawable/zero" />
+                        android:src="@drawable/firsth" />
 
                 </RelativeLayout>
                 <View
@@ -128,7 +128,7 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/one" />
+                        android:src="@drawable/twoh" />
 
                 </RelativeLayout>
 
@@ -151,7 +151,7 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/two" />
+                        android:src="@drawable/threeh" />
 
                 </RelativeLayout>
                 <View
@@ -168,7 +168,7 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/three" />
+                        android:src="@drawable/fourh" />
 
                 </RelativeLayout>
 
@@ -191,7 +191,7 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/four" />
+                        android:src="@drawable/fiveh" />
 
                 </RelativeLayout>
                 <View
@@ -208,7 +208,7 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/five" />
+                        android:src="@drawable/sixh" />
 
                 </RelativeLayout>
 
@@ -231,7 +231,7 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/six" />
+                        android:src="@drawable/sevenh" />
 
                 </RelativeLayout>
                 <View
@@ -248,7 +248,7 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/seven" />
+                        android:src="@drawable/eighth" />
 
                 </RelativeLayout>
 
