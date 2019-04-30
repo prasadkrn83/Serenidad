@@ -1,6 +1,8 @@
 package com.serenidad;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -38,7 +40,7 @@ public class ProgressChartActivity extends AppCompatActivity {
     ImageButton actionBarForward;
     TextView actionBarBack1;
 
-    private String user_name="1";
+    private String user_name="";
     private String AxisValue = "";
     private String xAxisValue = "";
     private String finalXAxisValue = "";
@@ -49,6 +51,10 @@ public class ProgressChartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_progress_chart);
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        user_name = preferences.getString("username","");
+
         userActivities = new ArrayList<StoreActivity>();
         initHabits();
         initEmotions();
