@@ -218,7 +218,7 @@ public class DataSource {
             String s=j.getGetBehaviourReaction();
             ContentValues values = new ContentValues();
             //values.put("thoughtid","");
-            values.put("username","1");
+            values.put("username",j.getUserName());
             values.put("emotion",j.getEmotion());
             values.put("thoughtdate",j.getThoughtDate());
             values.put("situation_whom",j.getSituatationWhom());
