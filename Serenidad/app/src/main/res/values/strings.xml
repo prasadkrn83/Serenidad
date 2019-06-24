@@ -19,6 +19,20 @@
     <string name="nine">Abro mi mente</string>
     <string name="ten">Meditacion bajo la ducha</string>
 
+    <string name="journalofthoughts">Diario de pensamientos</string>
+    <string name="health">Salud</string>
+    <string name="meditaion">Meditación</string>
+    <string name="thankfuldiary">Diario agradecido</string>
+    <string name="myprogress">Mi progreso</string>
+    <string name="myprofile">Mi perfil</string>
+    <string name="contactus">Contáctenos</string>
+
+
+
+
+
+
+
 
     <string name="title_activity_chart_adaptor">ChartAdaptor</string>
 

@@ -96,8 +96,8 @@
                 android:layout_margin="20dp"
                 android:orientation="horizontal">
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="150dp"
+                    android:layout_height="170dp">
 
                     <ImageView
                         android:id="@+id/firstImageView"
@@ -108,16 +108,21 @@
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
                         android:onClick="selectButton"
-                        android:src="@drawable/firsth" />
-
+                        android:src="@drawable/first_icons" />
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/journalofthoughts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
                 </RelativeLayout>
                 <View
                     android:layout_width="20dp"
                     android:layout_height="1dp" />
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="150dp"
+                    android:layout_height="170dp">
 
                     <ImageView
                         android:id="@+id/secondImageView"
@@ -128,8 +133,14 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/twoh" />
+                        android:src="@drawable/second_icons" />
 
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/health"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
                 </RelativeLayout>
 
             </LinearLayout>
@@ -141,8 +152,8 @@
                 android:layout_gravity="center"
                 android:orientation="horizontal">
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="150dp"
+                    android:layout_height="170dp">
 
                     <ImageView
                         android:id="@+id/thirdImageView"
@@ -151,15 +162,21 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/threeh" />
+                        android:src="@drawable/third_icons" />
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/meditaion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
 
                 </RelativeLayout>
                 <View
                     android:layout_width="20dp"
                     android:layout_height="1dp"/>
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="150dp"
+                    android:layout_height="170dp">
 
                     <ImageView
                         android:id="@+id/fourthImageView"
@@ -168,7 +185,13 @@
                         android:onClick="selectButton"
                         android:scaleType="fitXY"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/fourh" />
+                        android:src="@drawable/four_icons" />
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/thankfuldiary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
 
                 </RelativeLayout>
 
@@ -180,7 +203,87 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:orientation="horizontal">
+
+
                 <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="170dp">
+
+                    <ImageView
+                        android:id="@+id/sixthImageView"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:onClick="selectButton"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/six_icons" />
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/myprogress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp"/>
+
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="170dp">
+
+                    <ImageView
+                        android:id="@+id/sevenImageView"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:onClick="selectButton"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/seven_icons" />
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/myprofile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="170dp">
+
+                    <ImageView
+                        android:id="@+id/eightImageView"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:onClick="selectButton"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/eight_icons" />
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/contactus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp"/>
+
+                <RelativeLayout
+                    android:visibility="invisible"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
@@ -194,63 +297,7 @@
                         android:src="@drawable/fiveh" />
 
                 </RelativeLayout>
-                <View
-                    android:layout_width="20dp"
-                    android:layout_height="1dp"/>
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
 
-                    <ImageView
-                        android:id="@+id/sixthImageView"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:onClick="selectButton"
-                        android:scaleType="fitXY"
-                        android:adjustViewBounds="true"
-                        android:src="@drawable/sixh" />
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_margin="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:orientation="horizontal">
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/sevenImageView"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:onClick="selectButton"
-                        android:scaleType="fitXY"
-                        android:adjustViewBounds="true"
-                        android:src="@drawable/sevenh" />
-
-                </RelativeLayout>
-                <View
-                    android:layout_width="20dp"
-                    android:layout_height="1dp"/>
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/eightImageView"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:onClick="selectButton"
-                        android:scaleType="fitXY"
-                        android:adjustViewBounds="true"
-                        android:src="@drawable/eighth" />
-
-                </RelativeLayout>
 
             </LinearLayout>
 
