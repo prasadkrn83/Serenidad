@@ -1,326 +1,401 @@
 -- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:43:9-51:20
+	android:grantUriPermissions
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:47:13-47
+	android:authorities
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:45:13-60
+	android:exported
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:44:13-67
 manifest
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:1-91:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\3f9efe37e4da7f934d6e6e3185c216e0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\95d0f66e598b5c08f34b5ace5d4b423e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\e79335bd6982634b64ee5c11b856941d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4212404475a2bd166fd4dc8c0809afa5\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\f1b09a7be11e057057d16f2eb2504aa6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e5f2f52ac6a246e451e6e561e541f80e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\fbf2a9543cded19ae55d8476830038e7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\0dc8a54a6ea1091d01356db3c2488c91\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bc47e6e5d0d377b78d0412d39b83f2d5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9268e08811670d5bf4b07a1906ce621c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\dbee709b4f42890314ef6a2ba2e127ea\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\ab7fccd9e720e21cc179bcb4a82de0d9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\873d3789429df440ed0f54f7659caad7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\dc7a54a64594b3f14b80e974e7cfb39e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\cee2998518c911aa83da5cf11263b3bc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\250b0f64490c3d6e5979a36551b0ad6a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\472dbb272771bf0754c306a3cf53a97f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\daf53711678fcbfc07acc5e7f8d36192\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\86696c30054462dd9a291ab53080ad61\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e8fe94ccf3a2768abf0942559df732de\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\025aa7bc14a1d5970846dcfef65f3f15\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\465c1975290fbf5c47a343c0163c6100\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\136e6c9e1d657ececa9e8a80e36f75ec\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\85a7df9092361d663dcfc2dbe4798307\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\10e9a34e1801cf7a47cc79fb36c0b98a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b4a3fcbe930105b26a1d077e5aec30d8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\63e6dcb3c81ec1c4b6f304a5555d9e24\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b4686e0bfd25b3d9dc4c38d2f8f358d7\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\80f8197c90995dc43a5d78a91b8bad81\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3f3a025a496ff46726531d77ab0d2d34\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\4de7bc06d6fc364646027940a8dac48d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\13d87bb68e8df04ac7ae10f8821d7391\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ecc43cff0e340ffcfbdb02074473d6a9\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:1-91:12
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+MERGED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:design:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/8e31aebb73e121fe9891140eef314ac5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.yalantis:ucrop:2.2.2] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/e460f8de714329415e1e5a8ae081be9e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5e3df5f6fe29d0b96a7d0e6dd4475497/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b31fe4894f60f99e471f3c42d5476398/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9211b62535f02257037f110478e7357b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8ea980550f10ade1eb96fea8f7f20e78/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/8a4af1036003be64829395d3a797d12e/AndroidManifest.xml:2:1-7:12
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/circularimageview-3.2.0.aar/47df566713755581cea686f6b3414bda/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/3fc785f2867481ee7ee1c48ec9c5c7f6/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/81443f0cd5a33947370a07e2a05c18ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/548b2d513b42a7014424ce0a32b997c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b369c95eecbe670c037f2cdc0139936f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/22f3e6b45f370867337cb31007941673/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bb2291712877ee784e17e2f31daac5e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f01a545acc655e756117ff56abf06223/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/1cc6c9992caaccb4c7468f97dc4ec34f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/30a71e9c5ab1bd68b952cc9b40bf85d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d5ac491809fdb395330ac5401e6c5114/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/37c0d42d0c828766ec8e15c366ebf05e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f3307e503287404cd42371b68cae59b8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8929471d07a58f4bd4dfdcb722250195/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/dc38d920a8d1eaac5f46be95a8a824e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/61e375b2996ea290185ae1de178c0623/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e7acdf1ab0bad1f975bdfb073b065df6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/b23df985d3798233a972b3ee2012310e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b9a5abf434a6d3e9c763e1ad9f8c7263/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b9c39b057c25491660f4738a0bc2a950/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5e711771ee6ee8f31fa06e303b8ef759/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/c8739e8189bb3f0afb565a77667a7ba8/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c405d5eaf51da2d78f95a5e182257720/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/50ec0793d753bef777d4b9547f97aa05/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/47a3b10d4798e64c6b0b7647da9c4271/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ef22fda1536fabdc3ce52ec58c3bd770/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1c3d5bed3a7c8b5ee5a537984ad4394e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/060160483b8cd4ffacf3124529a65124/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/28509dee4947491449c691b92282f3a9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/05c955620e252126edb70369619e43ad/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ccbda9aeeaef188fc37d75993617191a/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
 	package
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:1-91:12
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 	xmlns:dist
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:3:5-61
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:3:5-61
 	android:versionCode
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:1-91:12
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:5:5-64
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:6:5-65
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:5:22-62
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:6:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:6:5-80
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:7:22-78
 dist:module
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:7:5-40
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:9:5-40
 	dist:instant
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:7:18-37
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:9:18-37
 application
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:9:5-89:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\3f9efe37e4da7f934d6e6e3185c216e0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\3f9efe37e4da7f934d6e6e3185c216e0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4212404475a2bd166fd4dc8c0809afa5\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4212404475a2bd166fd4dc8c0809afa5\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\465c1975290fbf5c47a343c0163c6100\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\465c1975290fbf5c47a343c0163c6100\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\136e6c9e1d657ececa9e8a80e36f75ec\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\136e6c9e1d657ececa9e8a80e36f75ec\AndroidManifest.xml:22:5-23:19
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:11:5-115:19
+MERGED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:26:5-30:19
+MERGED from [com.android.support:design:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/8e31aebb73e121fe9891140eef314ac5/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/8e31aebb73e121fe9891140eef314ac5/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9211b62535f02257037f110478e7357b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9211b62535f02257037f110478e7357b/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/3fc785f2867481ee7ee1c48ec9c5c7f6/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/3fc785f2867481ee7ee1c48ec9c5c7f6/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b9a5abf434a6d3e9c763e1ad9f8c7263/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b9a5abf434a6d3e9c763e1ad9f8c7263/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b9c39b057c25491660f4738a0bc2a950/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b9c39b057c25491660f4738a0bc2a950/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/c8739e8189bb3f0afb565a77667a7ba8/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/c8739e8189bb3f0afb565a77667a7ba8/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\465c1975290fbf5c47a343c0163c6100\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b9a5abf434a6d3e9c763e1ad9f8c7263/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:17:9-40
 activity#com.serenidad.ProfileActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:16:9-62
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:18:9-53
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:16:19-50
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:18:19-50
 activity#com.serenidad.EditProfileActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:17:9-57
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:19:9-57
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:17:19-54
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:19:19-54
 activity#com.serenidad.Signupctivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:18:9-51
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:20:9-51
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:18:19-48
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:20:19-48
 activity#com.serenidad.ContactUs
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:19:9-21:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:21:9-23:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:21:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:20:13-38
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:22:13-38
 activity#com.serenidad.HealthHelpActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:22:9-24:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:24:9-26:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:24:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:23:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:25:13-47
 activity#com.serenidad.login
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:25:9-33:20
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:27:9-35:20
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:27:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:26:13-34
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:28:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:33:27-74
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:37:9-40:59
+	android:screenOrientation
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:39:13-49
+	android:theme
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:38:13-60
+activity#com.serenidad.ImagePickerActivity
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:52:9-57
+	android:name
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:52:19-54
 activity#com.serenidad.HealthMainActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:34:9-36:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:53:9-55:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:36:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:35:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:54:13-47
+activity#com.serenidad.MeditationHelpActivity
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:56:9-58:59
+	android:theme
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:57:13-51
 activity#com.serenidad.MeditationActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:37:9-39:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:59:9-61:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:39:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:61:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:38:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:60:13-47
 activity#com.serenidad.MeditationSelectionActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:40:9-42:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:62:9-64:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:42:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:64:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:41:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:63:13-56
 activity#com.serenidad.journalofthot_behaviour
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:43:9-45:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:65:9-67:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:67:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:44:13-52
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:66:13-52
 activity#com.serenidad.journalofthot_datepick
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:46:9-48:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:68:9-70:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:48:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:70:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:47:13-51
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:69:13-51
 activity#com.serenidad.journalofthot_feeling
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:49:9-51:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:71:9-73:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:51:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:73:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:50:13-50
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:72:13-50
 activity#com.serenidad.journalofthot_help
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:52:9-54:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:74:9-76:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:54:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:76:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:53:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:75:13-47
 activity#com.serenidad.journalofthot_emotionmeter
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:55:9-57:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:77:9-79:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:57:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:79:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:56:13-55
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:78:13-55
 activity#com.serenidad.ProgressThoughtLogActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:58:9-60:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:80:9-82:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:60:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:82:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:59:13-55
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:81:13-55
 activity#com.serenidad.journalofthot_situation
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:61:9-63:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:83:9-85:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:63:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:85:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:62:13-52
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:84:13-52
 activity#com.serenidad.MainActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:64:9-66:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:86:9-88:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:66:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:88:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:65:13-41
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:87:13-41
 activity#com.serenidad.ThankfulDiaryHelpActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:67:9-69:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:89:9-91:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:69:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:91:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:68:13-54
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:90:13-54
 activity#com.serenidad.ThankfulDiary
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:70:9-51
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:92:9-94:59
+	android:theme
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:94:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:70:19-48
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:93:13-42
 activity#com.serenidad.ProgressHelpActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:71:9-73:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:95:9-97:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:73:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:97:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:72:13-49
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:96:13-49
 activity#com.serenidad.ProgressChartActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:74:9-76:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:98:9-100:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:76:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:100:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:75:13-50
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:99:13-50
 activity#com.serenidad.WaterEntryActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:77:9-79:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:101:9-103:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:79:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:103:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:78:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:102:13-47
 activity#com.serenidad.NewHabitActivity
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:80:9-82:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:104:9-106:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:82:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:106:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:81:13-45
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:105:13-45
 activity#com.serenidad.Home
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:83:9-85:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:107:9-109:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:85:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:109:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:84:13-33
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:108:13-33
 activity#com.serenidad.Register
-ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:86:9-88:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:110:9-112:59
 	android:theme
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:88:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:112:13-56
 	android:name
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml:87:13-37
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:111:13-37
+activity#com.serenidad.ForgotPassword
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:113:9-52
+	android:name
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:113:19-49
+activity#com.serenidad.EmailPassword
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:114:9-60
+	android:name
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:114:19-48
 uses-sdk
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\3f9efe37e4da7f934d6e6e3185c216e0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\3f9efe37e4da7f934d6e6e3185c216e0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\95d0f66e598b5c08f34b5ace5d4b423e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\95d0f66e598b5c08f34b5ace5d4b423e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\e79335bd6982634b64ee5c11b856941d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\e79335bd6982634b64ee5c11b856941d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4212404475a2bd166fd4dc8c0809afa5\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4212404475a2bd166fd4dc8c0809afa5\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\f1b09a7be11e057057d16f2eb2504aa6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\f1b09a7be11e057057d16f2eb2504aa6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e5f2f52ac6a246e451e6e561e541f80e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e5f2f52ac6a246e451e6e561e541f80e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\fbf2a9543cded19ae55d8476830038e7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\fbf2a9543cded19ae55d8476830038e7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\0dc8a54a6ea1091d01356db3c2488c91\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\0dc8a54a6ea1091d01356db3c2488c91\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bc47e6e5d0d377b78d0412d39b83f2d5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bc47e6e5d0d377b78d0412d39b83f2d5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9268e08811670d5bf4b07a1906ce621c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9268e08811670d5bf4b07a1906ce621c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\dbee709b4f42890314ef6a2ba2e127ea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\dbee709b4f42890314ef6a2ba2e127ea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\ab7fccd9e720e21cc179bcb4a82de0d9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\ab7fccd9e720e21cc179bcb4a82de0d9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\873d3789429df440ed0f54f7659caad7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\873d3789429df440ed0f54f7659caad7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\dc7a54a64594b3f14b80e974e7cfb39e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\dc7a54a64594b3f14b80e974e7cfb39e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\cee2998518c911aa83da5cf11263b3bc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\cee2998518c911aa83da5cf11263b3bc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\250b0f64490c3d6e5979a36551b0ad6a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\250b0f64490c3d6e5979a36551b0ad6a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\472dbb272771bf0754c306a3cf53a97f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\472dbb272771bf0754c306a3cf53a97f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\daf53711678fcbfc07acc5e7f8d36192\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\daf53711678fcbfc07acc5e7f8d36192\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\86696c30054462dd9a291ab53080ad61\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\86696c30054462dd9a291ab53080ad61\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e8fe94ccf3a2768abf0942559df732de\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e8fe94ccf3a2768abf0942559df732de\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\025aa7bc14a1d5970846dcfef65f3f15\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\025aa7bc14a1d5970846dcfef65f3f15\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\465c1975290fbf5c47a343c0163c6100\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\465c1975290fbf5c47a343c0163c6100\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\136e6c9e1d657ececa9e8a80e36f75ec\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\136e6c9e1d657ececa9e8a80e36f75ec\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\85a7df9092361d663dcfc2dbe4798307\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\85a7df9092361d663dcfc2dbe4798307\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\10e9a34e1801cf7a47cc79fb36c0b98a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\10e9a34e1801cf7a47cc79fb36c0b98a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b4a3fcbe930105b26a1d077e5aec30d8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b4a3fcbe930105b26a1d077e5aec30d8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\63e6dcb3c81ec1c4b6f304a5555d9e24\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\63e6dcb3c81ec1c4b6f304a5555d9e24\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b4686e0bfd25b3d9dc4c38d2f8f358d7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b4686e0bfd25b3d9dc4c38d2f8f358d7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\80f8197c90995dc43a5d78a91b8bad81\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\80f8197c90995dc43a5d78a91b8bad81\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3f3a025a496ff46726531d77ab0d2d34\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3f3a025a496ff46726531d77ab0d2d34\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\4de7bc06d6fc364646027940a8dac48d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\4de7bc06d6fc364646027940a8dac48d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\13d87bb68e8df04ac7ae10f8821d7391\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\13d87bb68e8df04ac7ae10f8821d7391\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ecc43cff0e340ffcfbdb02074473d6a9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\oms\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ecc43cff0e340ffcfbdb02074473d6a9\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+MERGED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/8e31aebb73e121fe9891140eef314ac5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/8e31aebb73e121fe9891140eef314ac5/AndroidManifest.xml:20:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.2] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/e460f8de714329415e1e5a8ae081be9e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.2] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/e460f8de714329415e1e5a8ae081be9e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5e3df5f6fe29d0b96a7d0e6dd4475497/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5e3df5f6fe29d0b96a7d0e6dd4475497/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b31fe4894f60f99e471f3c42d5476398/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b31fe4894f60f99e471f3c42d5476398/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9211b62535f02257037f110478e7357b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9211b62535f02257037f110478e7357b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8ea980550f10ade1eb96fea8f7f20e78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8ea980550f10ade1eb96fea8f7f20e78/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/8a4af1036003be64829395d3a797d12e/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/8a4af1036003be64829395d3a797d12e/AndroidManifest.xml:5:5-43
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/circularimageview-3.2.0.aar/47df566713755581cea686f6b3414bda/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/circularimageview-3.2.0.aar/47df566713755581cea686f6b3414bda/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/3fc785f2867481ee7ee1c48ec9c5c7f6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/3fc785f2867481ee7ee1c48ec9c5c7f6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/81443f0cd5a33947370a07e2a05c18ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/81443f0cd5a33947370a07e2a05c18ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/548b2d513b42a7014424ce0a32b997c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/548b2d513b42a7014424ce0a32b997c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b369c95eecbe670c037f2cdc0139936f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b369c95eecbe670c037f2cdc0139936f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/22f3e6b45f370867337cb31007941673/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/22f3e6b45f370867337cb31007941673/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bb2291712877ee784e17e2f31daac5e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bb2291712877ee784e17e2f31daac5e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f01a545acc655e756117ff56abf06223/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f01a545acc655e756117ff56abf06223/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/1cc6c9992caaccb4c7468f97dc4ec34f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/1cc6c9992caaccb4c7468f97dc4ec34f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/30a71e9c5ab1bd68b952cc9b40bf85d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/30a71e9c5ab1bd68b952cc9b40bf85d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d5ac491809fdb395330ac5401e6c5114/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d5ac491809fdb395330ac5401e6c5114/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/37c0d42d0c828766ec8e15c366ebf05e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/37c0d42d0c828766ec8e15c366ebf05e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f3307e503287404cd42371b68cae59b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f3307e503287404cd42371b68cae59b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8929471d07a58f4bd4dfdcb722250195/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8929471d07a58f4bd4dfdcb722250195/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/dc38d920a8d1eaac5f46be95a8a824e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/dc38d920a8d1eaac5f46be95a8a824e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/61e375b2996ea290185ae1de178c0623/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/61e375b2996ea290185ae1de178c0623/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e7acdf1ab0bad1f975bdfb073b065df6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e7acdf1ab0bad1f975bdfb073b065df6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/b23df985d3798233a972b3ee2012310e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/b23df985d3798233a972b3ee2012310e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b9a5abf434a6d3e9c763e1ad9f8c7263/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b9a5abf434a6d3e9c763e1ad9f8c7263/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b9c39b057c25491660f4738a0bc2a950/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b9c39b057c25491660f4738a0bc2a950/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5e711771ee6ee8f31fa06e303b8ef759/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5e711771ee6ee8f31fa06e303b8ef759/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/c8739e8189bb3f0afb565a77667a7ba8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/c8739e8189bb3f0afb565a77667a7ba8/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c405d5eaf51da2d78f95a5e182257720/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c405d5eaf51da2d78f95a5e182257720/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/50ec0793d753bef777d4b9547f97aa05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/50ec0793d753bef777d4b9547f97aa05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/47a3b10d4798e64c6b0b7647da9c4271/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/47a3b10d4798e64c6b0b7647da9c4271/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ef22fda1536fabdc3ce52ec58c3bd770/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ef22fda1536fabdc3ce52ec58c3bd770/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1c3d5bed3a7c8b5ee5a537984ad4394e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1c3d5bed3a7c8b5ee5a537984ad4394e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/060160483b8cd4ffacf3124529a65124/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/060160483b8cd4ffacf3124529a65124/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/28509dee4947491449c691b92282f3a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/28509dee4947491449c691b92282f3a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/05c955620e252126edb70369619e43ad/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/05c955620e252126edb70369619e43ad/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ccbda9aeeaef188fc37d75993617191a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ccbda9aeeaef188fc37d75993617191a/AndroidManifest.xml:20:5-44
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\oms\Desktop\ProjectSPE\Serenidad\Serenidad\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:48:13-50:54
+	android:resource
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:50:17-51
+	android:name
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:49:17-67
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:28:13-60

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\oms\\Desktop\\ProjectSPE\\Serenidad\\Serenidad\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/shekhar/Serenidad/Serenidad/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oms\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\95d0f66e598b5c08f34b5ace5d4b423e\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/shekhar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5e3df5f6fe29d0b96a7d0e6dd4475497/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\oms\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\ab7fccd9e720e21cc179bcb4a82de0d9\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/shekhar/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/1cc6c9992caaccb4c7468f97dc4ec34f/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

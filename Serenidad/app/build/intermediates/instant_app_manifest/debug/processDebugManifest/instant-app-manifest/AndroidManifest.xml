@@ -43,8 +43,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- uCrop cropping activity -->
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- cache directory file provider paths -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.serenidad.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name="com.serenidad.ImagePickerActivity" />
         <activity
             android:name="com.serenidad.HealthMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.serenidad.MeditationHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.serenidad.MeditationActivity"
@@ -79,7 +100,9 @@
         <activity
             android:name="com.serenidad.ThankfulDiaryHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.serenidad.ThankfulDiary" />
+        <activity
+            android:name="com.serenidad.ThankfulDiary"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.serenidad.ProgressHelpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -98,6 +121,11 @@
         <activity
             android:name="com.serenidad.Register"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.serenidad.ForgotPassword" />
+        <activity android:name="com.serenidad.EmailPassword" />
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
