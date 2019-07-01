@@ -6,14 +6,15 @@
     android:layout_height="match_parent"
     android:padding="20dp"
     tools:context=".ProfileActivity">
+
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Profile"
-        android:id="@+id/title"
-        android:textColor="@color/darkGreen"
         android:layout_centerHorizontal="true"
-        android:textSize="30sp"/>
+        android:text="Perfil"
+        android:textColor="@color/darkGreen"
+        android:textSize="30sp" />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,9 +63,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25sp"
+                android:text='Usuario"'
                 android:textColor="@color/darkGreen"
-                android:text="Username:  "/>
+                android:textSize="25sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -79,12 +80,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25sp"
+                android:text="Correo:  "
                 android:textColor="@color/darkGreen"
-                android:text="Email:  "/>
+                android:textSize="25sp" />
 
             <TextView
                 android:layout_width="match_parent"
