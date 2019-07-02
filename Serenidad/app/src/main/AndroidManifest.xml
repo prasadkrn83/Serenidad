@@ -15,9 +15,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".EditProfileActivity" />
-        <activity android:name=".Signupctivity" />
+        <activity android:name=".ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".EditProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Signupctivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".ContactUs"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -49,7 +52,8 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
-        <activity android:name=".ImagePickerActivity" />
+        <activity android:name=".ImagePickerActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".HealthMainActivity"
             android:theme="@style/AppTheme.NoActionBar" />

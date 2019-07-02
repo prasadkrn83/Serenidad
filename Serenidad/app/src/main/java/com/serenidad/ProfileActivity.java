@@ -109,15 +109,25 @@ public class ProfileActivity extends AppCompatActivity {
     private void loadProfile(String url) {
         Log.d(TAG, "Image cache path: " + url);
 
+        SharedPreferenceHelper.setImagePath(getApplicationContext(), url);
+
         GlideApp.with(this).load(url)
                 .into(imgProfile);
         imgProfile.setColorFilter(ContextCompat.getColor(this, android.R.color.transparent));
     }
 
     private void loadProfileDefault() {
-        GlideApp.with(this).load(R.drawable.baseline_account_circle_black_48)
-                .into(imgProfile);
-        imgProfile.setColorFilter(ContextCompat.getColor(this, R.color.profile_default_tint));
+        if (SharedPreferenceHelper.getImagePath(getApplicationContext()) != "") {
+
+            GlideApp.with(this).load(SharedPreferenceHelper.getImagePath(getApplicationContext()))
+                    .into(imgProfile);
+            imgProfile.setColorFilter(ContextCompat.getColor(this, android.R.color.transparent));
+        } else {
+
+            GlideApp.with(this).load(R.drawable.baseline_account_circle_black_48)
+                    .into(imgProfile);
+            imgProfile.setColorFilter(ContextCompat.getColor(this, R.color.profile_default_tint));
+        }
     }
 
     @OnClick({R.id.img_plus, R.id.img_profile})

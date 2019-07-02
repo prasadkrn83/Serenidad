@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#android.support.v4.content.FileProvider
-INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:43:9-51:20
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:46:9-54:20
 	android:grantUriPermissions
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:47:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:50:13-47
 	android:authorities
 		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:45:13-60
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:48:13-60
 	android:exported
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:46:13-37
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:44:13-67
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:47:13-67
 manifest
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
-INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
-INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
-INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-121:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-121:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-121:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-121:12
 MERGED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:17:1-32:12
 MERGED from [com.android.support:design:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/8e31aebb73e121fe9891140eef314ac5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.yalantis:ucrop:2.2.2] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/e460f8de714329415e1e5a8ae081be9e/AndroidManifest.xml:2:1-11:12
@@ -54,22 +54,22 @@ MERGED from [com.android.support:interpolator:28.0.0] /Users/shekhar/.gradle/cac
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/28509dee4947491449c691b92282f3a9/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/05c955620e252126edb70369619e43ad/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ccbda9aeeaef188fc37d75993617191a/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
-INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
-INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-121:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-121:12
+INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-121:12
 	package
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:4:5-28
 		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-121:12
 		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 	xmlns:dist
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-117:12
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:1-121:12
 		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:2:11-69
@@ -86,7 +86,7 @@ ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:9
 	dist:instant
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:9:18-37
 application
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:11:5-115:19
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:11:5-119:19
 MERGED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:26:5-30:19
 MERGED from [com.android.support:design:28.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/8e31aebb73e121fe9891140eef314ac5/AndroidManifest.xml:22:5-20
@@ -116,185 +116,193 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/shekhar/.gradle/
 	android:theme
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:17:9-40
 activity#com.serenidad.ProfileActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:18:9-53
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:18:9-19:58
+	android:theme
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:19:13-56
 	android:name
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:18:19-50
 activity#com.serenidad.EditProfileActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:19:9-57
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:20:9-21:58
+	android:theme
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:19:19-54
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:20:19-54
 activity#com.serenidad.Signupctivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:20:9-51
-	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:20:19-48
-activity#com.serenidad.ContactUs
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:21:9-23:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:22:9-23:58
 	android:theme
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:22:13-38
-activity#com.serenidad.HealthHelpActivity
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:22:19-48
+activity#com.serenidad.ContactUs
 ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:24:9-26:59
 	android:theme
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:25:13-47
-activity#com.serenidad.login
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:27:9-35:20
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:25:13-38
+activity#com.serenidad.HealthHelpActivity
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:27:9-29:59
 	android:theme
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:28:13-34
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:28:13-47
+activity#com.serenidad.login
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:30:9-38:20
+	android:theme
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:31:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:30:13-34:29
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:31:17-69
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:31:25-66
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:33:17-77
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:33:27-74
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:36:27-74
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:37:9-40:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:40:9-43:59
 	android:screenOrientation
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:39:13-49
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:42:13-49
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:40:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:43:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:38:13-60
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:41:13-60
 activity#com.serenidad.ImagePickerActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:52:9-57
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:55:9-56:58
+	android:theme
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:56:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:52:19-54
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:55:19-54
 activity#com.serenidad.HealthMainActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:53:9-55:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:57:9-59:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:55:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:59:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:54:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:58:13-47
 activity#com.serenidad.MeditationHelpActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:56:9-58:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:60:9-62:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:58:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:62:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:57:13-51
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:61:13-51
 activity#com.serenidad.MeditationActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:59:9-61:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:63:9-65:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:61:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:60:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:64:13-47
 activity#com.serenidad.MeditationSelectionActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:62:9-64:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:66:9-68:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:64:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:68:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:63:13-56
-activity#com.serenidad.journalofthot_behaviour
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:65:9-67:59
-	android:theme
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:67:13-56
+activity#com.serenidad.journalofthot_behaviour
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:69:9-71:59
+	android:theme
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:71:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:66:13-52
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:70:13-52
 activity#com.serenidad.journalofthot_datepick
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:68:9-70:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:72:9-74:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:70:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:74:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:69:13-51
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:73:13-51
 activity#com.serenidad.journalofthot_feeling
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:71:9-73:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:75:9-77:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:73:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:77:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:72:13-50
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:76:13-50
 activity#com.serenidad.journalofthot_help
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:74:9-76:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:78:9-80:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:76:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:80:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:75:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:79:13-47
 activity#com.serenidad.journalofthot_emotionmeter
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:77:9-79:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:81:9-83:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:79:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:83:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:78:13-55
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:82:13-55
 activity#com.serenidad.ProgressThoughtLogActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:80:9-82:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:84:9-86:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:82:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:86:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:81:13-55
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:85:13-55
 activity#com.serenidad.journalofthot_situation
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:83:9-85:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:87:9-89:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:85:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:89:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:84:13-52
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:88:13-52
 activity#com.serenidad.MainActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:86:9-88:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:90:9-92:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:88:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:92:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:87:13-41
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:91:13-41
 activity#com.serenidad.ThankfulDiaryHelpActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:89:9-91:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:93:9-95:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:91:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:95:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:90:13-54
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:94:13-54
 activity#com.serenidad.ThankfulDiary
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:92:9-94:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:96:9-98:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:94:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:98:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:93:13-42
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:97:13-42
 activity#com.serenidad.ProgressHelpActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:95:9-97:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:99:9-101:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:97:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:101:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:96:13-49
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:100:13-49
 activity#com.serenidad.ProgressChartActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:98:9-100:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:102:9-104:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:100:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:104:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:99:13-50
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:103:13-50
 activity#com.serenidad.WaterEntryActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:101:9-103:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:105:9-107:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:103:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:107:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:102:13-47
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:106:13-47
 activity#com.serenidad.NewHabitActivity
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:104:9-106:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:108:9-110:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:106:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:110:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:105:13-45
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:109:13-45
 activity#com.serenidad.Home
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:107:9-109:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:111:9-113:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:109:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:113:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:108:13-33
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:112:13-33
 activity#com.serenidad.Register
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:110:9-112:59
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:114:9-116:59
 	android:theme
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:112:13-56
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:116:13-56
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:111:13-37
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:115:13-37
 activity#com.serenidad.ForgotPassword
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:113:9-52
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:117:9-52
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:113:19-49
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:117:19-49
 activity#com.serenidad.EmailPassword
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:114:9-60
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:118:9-60
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:114:19-48
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:118:19-48
 uses-sdk
 INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
@@ -388,11 +396,11 @@ INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xm
 		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:48:13-50:54
+ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:51:13-53:54
 	android:resource
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:50:17-51
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:53:17-51
 	android:name
-		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:49:17-67
+		ADDED from /Users/shekhar/Serenidad/Serenidad/app/src/main/AndroidManifest.xml:52:17-67
 activity#com.karumi.dexter.DexterActivity
 ADDED from [com.karumi:dexter:5.0.0] /Users/shekhar/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/578c99faa24df85c706ee89424c3eb6f/AndroidManifest.xml:27:9-29:72
 	android:theme

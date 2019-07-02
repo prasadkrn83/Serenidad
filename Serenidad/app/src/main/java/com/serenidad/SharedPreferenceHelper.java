@@ -12,7 +12,19 @@ public class SharedPreferenceHelper {
     private static final String EMAIL = "emailid";
     private static final String AGE = "age";
     private static final String PASS = "password";
+    private static final String IMAGE_PATH = "imgPath";
 
+    public static void setImagePath(Context context, String imagePath) {
+        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(context).edit();
+        editor.putString(IMAGE_PATH, imagePath);
+        editor.apply();
+    }
+
+
+    public static String getImagePath(Context context) {
+        SharedPreferences sharedPreferences= PreferenceManager.getDefaultSharedPreferences(context);
+        return sharedPreferences.getString(IMAGE_PATH, "");
+    }
     public static void setLogedIn(Context context, boolean loggedIn) {
         SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(context).edit();
         editor.putBoolean(LOGGED_IN, loggedIn);

@@ -24,9 +24,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.serenidad.ProfileActivity" />
-        <activity android:name="com.serenidad.EditProfileActivity" />
-        <activity android:name="com.serenidad.Signupctivity" />
+        <activity
+            android:name="com.serenidad.ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.serenidad.EditProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.serenidad.Signupctivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.serenidad.ContactUs"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -59,7 +65,9 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name="com.serenidad.ImagePickerActivity" />
+        <activity
+            android:name="com.serenidad.ImagePickerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.serenidad.HealthMainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
